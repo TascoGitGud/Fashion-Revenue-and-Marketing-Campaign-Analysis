@@ -194,11 +194,12 @@ This analytics deployment followed the Design Thinking structure across 3 stages
 > <p align="center"><img src="Images/Campaign_Performance_Detail.png" width="100%"></p>
 > <p align="center"><img src="Images/SKU_Performance_Detail.png" width="100%"></p>
 >
+> - 🔙 **Back Button** - A navigation arrow sits on the top-left of every detail page, returning the user to the main report view.
+
 > - 💬 **Tooltips** - Hover over any data point on trend charts across all pages to reveal rich contextual detail (revenue breakdown, profit, ROAS) without cluttering the main view.
 >
 > <p align="center"><img src="Images/Tooltips1.png" width="48%"> <img src="Images/Tooltips2.png" width="48%"></p>
 >
-> - 🔙 **Back Button** - A navigation arrow sits on the top-left of every detail page, returning the user to the main report view.
 
 ---
 
