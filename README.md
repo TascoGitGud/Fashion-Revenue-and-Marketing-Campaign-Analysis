@@ -179,50 +179,49 @@ The reporting schema is integrated within Power BI using a Star Schema structure
 
 ## 🧠 Design Thinking Process
 
-We followed a simple 3-step thinking process to understand what the business actually needs.
+This project followed the Design Thinking framework across 3 main steps: Empathize, Define Point of View, and Ideate.
+
+> 📄 For the full Design Thinking breakdown, see [Fashion Marketing & Sales Analysis - Design Thinking.pdf](Fashion-Marketing-Sales-Analysis-Design-Thinking.pdf)
 
 ### 1️⃣ Empathize - Understanding the Stakeholder
 
 | Question | Answer |
 |---|---|
-| **Who uses this?** | Marketing Manager, Sales Manager, CEO/Board |
-| **What problem?** | Facebook Ads data is in one place, sales data in another. Hard to see if ads are actually profitable. |
-| **When used?** | Marketing team checks daily. Leadership reviews weekly. |
-| **Why needed?** | Every dollar spent on ads needs to come back as profit. Can't waste money on bad campaigns. |
-| **How will they decide?** | Compare ROAS (return on ad spend) and profit margin. Cut bad campaigns, scale good ones. |
-| **Pain Points** | • Takes hours to manually calculate in Excel<br>• Can't see profit/loss clearly<br>• Don't know which products to promote<br>• Hard to justify ad budget to leadership |
-| **What Would Help** | • See profit in real-time<br>• Know which products are heroes<br>• Know which campaigns waste money<br>• Data to show CEO |
-| **Key Questions** | • Which Facebook campaign gives best return?<br>• What's our overall ROAS?<br>• Which products make money?<br>• Which products lose money?<br>• Do ads work better than direct sales? |
-
----
+| **Who views this dashboard?** | Marketing Manager, Sales Manager, CEO/Board of Directors |
+| **What problem does it solve?** | Need a single dashboard to monitor business and marketing performance — know which campaigns are profitable, which channels work, and which products to prioritize |
+| **When & where is it used?** | Daily for spending & revenue tracking; weekly for campaign reviews; on laptop or large screen during meetings |
+| **Why is this analysis needed?** | Marketing budget is limited — need to know if every dollar spent is generating profit and avoid pouring money into inefficient campaigns or products |
+| **How do they decide?** | By comparing ROAS and Profit Margin across campaigns, channels, and products — then deciding to scale or cut |
+| **Pains** | Data is scattered across Facebook Ads, order systems, and manual Excel sheets; hard to compare SKU-level and channel-level performance |
+| **Gains** | Full picture in one screen; faster budget allocation decisions; reduced marketing waste |
+| **Key Questions to Answer** | • What is total revenue and profit this month?<br>• Which campaigns have the best ROAS?<br>• Is Ads or Direct Sales more profitable?<br>• Which products/categories have low or negative margin?<br>• What % of budget has been spent — and is it generating profit? |
 
 ### 2️⃣ Define Point of View - Choosing the Right Angles
 
-| Angle | Purpose | Why It Matters |
+| Point of View | Description | Why the stakeholder cares |
 |---|---|---|
-| **Executive View** | Show total revenue, total ad spend, profit, ROAS, margin %. Big picture. | CEO needs to know: are we making money? |
-| **Campaign View** | Show each ad campaign's performance, spending, clicks, ROAS. | Marketing manager needs to know: which campaigns work? which should I pause? |
-| **Channel View** | Compare Ads Sales vs Direct Sales. Which channel is more profitable? | Sales team needs to know: where is the money coming from? which channel should we invest in? 
-| **Product View** | Show each product's revenue, profit, ad spend allocation, ROAS. | Sales team needs to know: which items sell? which make profit? |
-
----
+| **Overview** | Total revenue, costs, profit, and ROAS for the month | To see the big picture before diving into details |
+| **Campaign** | ROAS, CPC, CPM, CTR, Impressions per campaign | To know which campaigns to scale or cut |
+| **Channel** | Ads Sales vs Direct Sales by revenue, margin, and region | To know which channel drives more profitable revenue |
+| **SKU** | Revenue, profit, and margin by category and product | To know which products to grow and which to fix |
 
 **Northstar Metrics:**
 
-| Metric | What It Means | How To Calculate |
-|---|---|---|
-| **ROAS (Return On Ad Spend)** | For every 1 VND spent on ads, how many VND come back as revenue? | Ad Revenue ÷ Ad Spend |
-| **Profit Margin (%)** | Of every 1 VND in revenue, how much is profit after costs? | (Revenue - Product Cost - Ad Spend) ÷ Revenue × 100 |
-
----
+| Northstar 1 | Northstar 2 |
+|---|---|
+| **ROAS** | **Profit Margin (%)** |
+| Formula: `ROAS = Total Ads Revenue / Total Marketing Cost` | Formula: `Profit Margin = Gross Profit / Net Revenue` |
+| Success when: ROAS > 10 and growing vs. prior period | Success when: Profit Margin stays stable or improves alongside revenue growth |
+| Why this metric: Directly measures how much revenue each dollar of ad spend returns — the core signal for budget decisions | Why this metric: High revenue doesn't guarantee profit — ensures growth is healthy, not just volumetric |
 
 ### 3️⃣ Ideate - Structuring the Dashboard
 
-| | **Page 1: Executive Overview** | **Page 2: Campaigns** | **Page 3: Products & Cities** |
-|---|---|---|---|
-| **Top (Key Numbers)** | Revenue, Orders, Ad Spend, ROAS, Profit Margin | Campaign spend, clicks, CTR, CPC, CPM, Campaign ROAS | Top products, categories, cities |
-| **Middle (Trends)** | Daily revenue and profit trend, budget usage | Weekly CPC and CPM trends, performance by week | Revenue by city, profit by city |
-| **Bottom (Details)** | Revenue split: Ads vs Direct sales, by customer tier | Campaign details table | Product details table |
+| Layer | Overview | Campaign | Channel | SKU |
+|---|---|---|---|---|
+| **Layer 0 (Scorecards)** | Total Revenue, Total Orders, Marketing Cost, ROAS, Total Units Sold | Total Revenue, Total Orders, Marketing Cost, ROAS, Total Units Sold | Total Revenue, Total Orders, Marketing Cost, ROAS, Total Units Sold | Total Revenue, Total Orders, Marketing Cost, ROAS, Total Units Sold |
+| **Layer 1 (1-dimension)** | Revenue & Cost by week/day; Profit & Revenue trend; Ads vs Direct ratio | ROAS by week/day; CPC & CPM by day; Impressions & CTR | Revenue by day (Ads vs Direct); Revenue by Customer Tier; ROAS by channel | Profit & Revenue by category; Profit Margin by category; Ads Revenue by category |
+| **Layer 2 (2-dimension)** | Marketing Cost vs Revenue by campaign; % Budget used | Weekly table: ROAS, Spend, Impressions, CTR, CPC; Metric selector | Table: Ads/Direct × Revenue, Orders, Margin, Units, Contribution; Revenue & Profit by product | SKU table: Spend, Profit, ROAS, ROI, Revenue Contribution; Profit Margin × Gross Profit matrix |
+| **What's missing?** | MoM comparison | ROAS per individual campaign | New vs. returning customers | Inventory vs. sales crosscheck |
 
 ---
 
