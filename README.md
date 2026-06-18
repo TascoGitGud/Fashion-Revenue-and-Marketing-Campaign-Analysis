@@ -148,7 +148,7 @@ The reporting schema is integrated within Power BI using a Star Schema structure
 
 This project followed the Design Thinking framework across 3 main steps: Empathize, Define Point of View, and Ideate.
 
-> 📄 For the full Design Thinking breakdown, see [Fashion Marketing & Sales Analysis - Design Thinking.pdf](Fashion-Marketing-Sales-Analysis-Design-Thinking.pdf)
+> 📄 For the full Design Thinking breakdown, see [Fashion Marketing & Sales Analysis Design Thinking.pdf](Fashion-Marketing-Sales-Analysis-Design-Thinking.pdf)
 
 ### 1️⃣ Empathize - Understanding the Stakeholder
 
