@@ -37,14 +37,19 @@ The business operates within the fashion retail and e-commerce industry, executi
 The Executive Board and leadership team require a tactical dashboard to address three fundamental business needs:
 
 ✔️ **Executive Overview:** What is our current budget utilization rate? Does the relationship between marketing costs and net revenue reliably deliver optimal net profits on a daily and weekly basis?
+
 ✔️ **Campaign & Channel Performance:** Which marketing campaigns yield the highest profitability? How are the ad platform technical metrics (CPC, CPM, CTR) fluctuating? Does the paid acquisition channel (Ads Sales) truly outperform organic/store-driven sales (Direct Sales)?
+
 ✔️ **SKU Performance:** Which product categories and SKUs contribute the largest revenue share? Which items achieve excellent ROAS metrics to justify scaling, and which ones are driving margins into negative territory?
 
 The core objective of this project is to build an automated dashboard framework that integrates siloed Facebook Ads data with confirmed backend order fulfillments, empowering leadership to optimize cash flows and make precise budget reallocation choices.
 
 ### 👤 Who is this project for?
+
 ✔️ **Marketing Manager** - Needs to monitor granular technical ad performance across Meta Ads, control CPM, CPC, CTR, and ROAS trends to optimize creatives, targeting parameters, and adjust weekly spend allocations.
+
 ✔️ **Sales Manager** - Needs to manage revenue across distribution channels (Ads vs Direct), examine customer purchasing power by geographical city, and leverage customer loyalty tiers to structure conversion incentives.
+
 ✔️ **Board of Directors (CEO/Directors)** - Require a high-level perspective of the financial bottom line, relying on two core metrics (ROAS & Profit Margin %) to control cash flow risks and approve strategic budget expansions.
 
 ---
