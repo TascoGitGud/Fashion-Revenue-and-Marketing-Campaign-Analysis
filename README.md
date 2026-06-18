@@ -57,7 +57,7 @@ The core objective of this project is to build an automated dashboard framework 
 ## 📂 Dataset Description & Data Structure
 
 ### 📌 Data Source
-- Source: Internal E-commerce ERP Database & Meta Ads Manager Profile (`[DAC] Project 3 - Dataset.xlsx`)
+- Source: Fashion Marketing & Sales Analysis Dataset.
 - Format: Excel Workbook (`.xlsx`)
 
 ### 📊 Data Structure & Relationships
@@ -115,6 +115,7 @@ The reporting schema is integrated within Power BI using a Star Schema structure
 - **`danh sach san pham` → `mkt_camp_by_sku_cost`**: 1-to-Many Relationship (mapped via the cross-functional keys `Mã sản phẩm` / `Mã Sản phẩm`)
 - **`Dim_Date` → `order`**: 1-to-Many Relationship (mapped from `Date` to the order timestamp `Thời gian`)
 - **`Dim_Date` → `mkt_camp_by_sku_cost`**: 1-to-Many Relationship (mapped from `Date` to the marketing log date `Ngày`)
+- **`dim_mkt_camp_cost` → `fact_mkt_camp_by_sku_cost`**: 1-to-Many Relationship (mapped via the custom-generated tracking key `CampaignID` to bridge aggregate daily campaign metrics with granular SKU performance)
 
 <p align="center">
   <img src="Images/data_model.png" width="80%">
