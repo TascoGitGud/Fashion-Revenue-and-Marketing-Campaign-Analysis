@@ -60,7 +60,7 @@ The core objective of this project is to build an automated dashboard framework 
 - **Source:** Fashion Marketing & Sales Analysis Dataset
 - **Format:** Excel Workbook (`.xlsx`)
 - **Time Period:** May 2024
-- 
+
 ### 📊 Data Structure & Relationships
 
 #### 1️⃣ Tables Used
