@@ -154,7 +154,7 @@ This analytics deployment followed the Design Thinking structure across 3 stages
 |---|---|
 | **ROAS (Return on Ad Spend)** | **Profit Margin (%)** |
 | Formula: `Ads Revenue / Marketing Spend` | Formula: `(Total Revenue - COGS - Marketing Cost) / Total Revenue` |
-| Success when: ROAS exceeds defined target baseline (e.g., > 5.0) | Success when: The profit margin climbs into positive percentage territory and improves consistently. |
+| Success when: ROAS exceeds defined target baseline | Success when: The profit margin climbs into positive percentage territory and improves consistently. |
 | Why this metric: Directly quantifies the revenue-generating efficiency of every dollar funneled into digital advertisements. | Why this metric: Guarantees the brand focuses on sustainable bottom-line health rather than chasing unprofitable top-line scale. |
 
 ### 3️⃣ Ideate - Structuring the Dashboard
