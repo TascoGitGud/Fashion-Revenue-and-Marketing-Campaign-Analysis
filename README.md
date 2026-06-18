@@ -79,11 +79,11 @@ The dataset consists of **4 main tables**:
 |---|---|
 | ID | Unique transaction order identifier |
 | Thời gian | Exact datetime stamp of the completed order |
-| Mã sản phẩm | Unique product/SKU variant code (including size), used as a key |
+| Mã sản phẩm | Unique product/SKU variant code, used as a key |
 | Số lượng | Quantity of items purchased within the order line |
 | Giá | Actual transaction selling price for the product line (VND) |
 | Giá vốn | Cost of goods sold (COGS) for the product line (VND) |
-| Trạng thái | Fulfilment status (Mới, Đang xác nhận, Đã đóng gói, Thành công, Hệ thống hủy) |
+| Trạng thái | Fulfilment status |
 
 **Table: `danh sach san pham`** (Dimension Table)
 
@@ -93,7 +93,7 @@ The dataset consists of **4 main tables**:
 | Tên sản phẩm | The full catalog name of the fashion product |
 | Giá bán | Official listed retail price of the item (VND) |
 | Giá vốn | Master production cost/COGS for the item (VND) |
-| Danh mục | General product category grouping (e.g., Váy Chiết Eo Xoè, Áo Tách Set) |
+| Danh mục | General product category grouping |
 
 **Table: `mkt_camp_by_sku_cost`** (Fact Table / Ad Performance)
 
@@ -111,8 +111,10 @@ The dataset consists of **4 main tables**:
 
 The reporting schema is integrated within Power BI using a Star Schema structure:
 
-- **`danh sach san pham` → `order`**: 1-to-Many Relationship (mapped via `Mã sản phẩm`)
-- **`danh sach san pham` → `mkt_camp_by_sku_cost`**: 1-to-Many Relationship (mapped via `Mã sản phẩm` / `Mã Sản phẩm`)
+- **`danh sach san pham` → `order`**: 1-to-Many Relationship (mapped via the primary tracking key `Mã sản phẩm`)
+- **`danh sach san pham` → `mkt_camp_by_sku_cost`**: 1-to-Many Relationship (mapped via the cross-functional keys `Mã sản phẩm` / `Mã Sản phẩm`)
+- **`Dim_Date` → `order`**: 1-to-Many Relationship (mapped from `Date` to the order timestamp `Thời gian`)
+- **`Dim_Date` → `mkt_camp_by_sku_cost`**: 1-to-Many Relationship (mapped from `Date` to the marketing log date `Ngày`)
 
 <p align="center">
   <img src="Images/data_model.png" width="80%">
