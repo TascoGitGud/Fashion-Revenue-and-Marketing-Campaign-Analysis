@@ -188,13 +188,13 @@ This project followed the Design Thinking framework across 3 main steps: Empathi
 | Question | Answer |
 |---|---|
 | **Who views this dashboard?** | Marketing Manager, Sales Manager, CEO/Board of Directors |
-| **What problem does it solve?** | Need a single dashboard to monitor business and marketing performance — know which campaigns are profitable, which channels work, and which products to prioritize |
+| **What problem does it solve?** | Need a single dashboard to monitor business and marketing performance - know which campaigns are profitable, which channels work, and which products to prioritize |
 | **When & where is it used?** | Daily for spending & revenue tracking; weekly for campaign reviews; on laptop or large screen during meetings |
-| **Why is this analysis needed?** | Marketing budget is limited — need to know if every dollar spent is generating profit and avoid pouring money into inefficient campaigns or products |
-| **How do they decide?** | By comparing ROAS and Profit Margin across campaigns, channels, and products — then deciding to scale or cut |
+| **Why is this analysis needed?** | Marketing budget is limited - need to know if every dollar spent is generating profit and avoid pouring money into inefficient campaigns or products |
+| **How do they decide?** | By comparing ROAS and Profit Margin across campaigns, channels, and products - then deciding to scale or cut |
 | **Pains** | Data is scattered across Facebook Ads, order systems, and manual Excel sheets; hard to compare SKU-level and channel-level performance |
 | **Gains** | Full picture in one screen; faster budget allocation decisions; reduced marketing waste |
-| **Key Questions to Answer** | • What is total revenue and profit this month?<br>• Which campaigns have the best ROAS?<br>• Is Ads or Direct Sales more profitable?<br>• Which products/categories have low or negative margin?<br>• What % of budget has been spent — and is it generating profit? |
+| **Key Questions to Answer** | • What is total revenue and profit this month?<br>• Which campaigns have the best ROAS?<br>• Is Ads or Direct Sales more profitable?<br>• Which products/categories have low or negative margin?<br>• What % of budget has been spent - and is it generating profit? |
 
 ### 2️⃣ Define Point of View - Choosing the Right Angles
 
@@ -212,7 +212,7 @@ This project followed the Design Thinking framework across 3 main steps: Empathi
 | **ROAS** | **Profit Margin (%)** |
 | Formula: `ROAS = Total Ads Revenue / Total Marketing Cost` | Formula: `Profit Margin = Gross Profit / Net Revenue` |
 | Success when: ROAS > 10 and growing vs. prior period | Success when: Profit Margin stays stable or improves alongside revenue growth |
-| Why this metric: Directly measures how much revenue each dollar of ad spend returns — the core signal for budget decisions | Why this metric: High revenue doesn't guarantee profit — ensures growth is healthy, not just volumetric |
+| Why this metric: Directly measures how much revenue each dollar of ad spend returns - the core signal for budget decisions | Why this metric: High revenue doesn't guarantee profit - ensures growth is healthy, not just volumetric |
 
 ### 3️⃣ Ideate - Structuring the Dashboard
 
