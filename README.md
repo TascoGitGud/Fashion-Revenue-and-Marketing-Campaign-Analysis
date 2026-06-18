@@ -148,8 +148,6 @@ The reporting schema is integrated within Power BI using a Star Schema structure
 
 This project followed the Design Thinking framework across 3 main steps: Empathize, Define Point of View, and Ideate.
 
-> 📄 For the full Design Thinking breakdown, see [Fashion Marketing & Sales Analysis Design Thinking.pdf](Fashion-Marketing-Sales-Analysis-Design-Thinking.pdf)
-
 ### 1️⃣ Empathize - Understanding the Stakeholder
 
 | Question | Answer |
@@ -190,9 +188,9 @@ This project followed the Design Thinking framework across 3 main steps: Empathi
 | **Layer 2 (2-dimension)** | Marketing Cost vs Revenue by campaign; % Budget used | Weekly table: ROAS, Spend, Impressions, CTR, CPC; Metric selector | Table: Ads/Direct × Revenue, Orders, Margin, Units, Contribution; Revenue & Profit by product | SKU table: Spend, Profit, ROAS, ROI, Revenue Contribution; Profit Margin × Gross Profit matrix |
 | **What's missing?** | MoM comparison | ROAS per individual campaign | New vs. returning customers | Inventory vs. sales crosscheck |
 
+> 📄 For the full Design Thinking breakdown, see [Fashion Marketing & Sales Analysis Design Thinking.pdf](Fashion-Marketing-Sales-Analysis-Design-Thinking.pdf)
+
 ---
-
-
 
 ## ⚒️ Main Process
 
