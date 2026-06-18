@@ -233,8 +233,11 @@ We followed a simple 3-step thinking process to understand what the business act
 ## ⚒️ Main Process
 
 **Step 1:** Connected Power BI to the Excel file, cleaned up data, fixed date formats.
+
 **Step 2:** Organized data into separate organized tables (Product table, Date table, Order fact table, Ad spending fact table).
+
 **Step 3:** Wrote DAX formulas
+
 **Step 4:** Built 4 dashboard pages with filters, trend charts, and detailed tables.
 
 ---
