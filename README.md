@@ -60,7 +60,7 @@ The goal is to connect Facebook ad data with actual sales data, so leadership ca
 
 ### 📊 Data Structure & Relationships
 
-#### 1️⃣ Tables Used
+#### 1️⃣ Data Structure
 
 The dataset consists of **4 main tables**:
 
@@ -123,44 +123,10 @@ The dataset consists of **4 main tables**:
 
 **Total: 3,874 records**
 
-#### 2️⃣ Table Schema (Core Fields)
-
-**Table: `order`** (Fact Table)
-
-| Tên Cột | Description |
-|---|---|
-| ID | Unique transaction order identifier |
-| Thời gian | Exact datetime stamp of the completed order |
-| Mã sản phẩm | Unique product/SKU variant code, used as a key |
-| Số lượng | Quantity of items purchased within the order line |
-| Giá | Actual transaction selling price for the product line (VND) |
-| Giá vốn | Cost of goods sold (COGS) for the product line (VND) |
-| Trạng thái | Fulfillment status |
-
-**Table: `danh sach san pham`** (Dimension Table)
-
-| Tên Cột | Description |
-|---|---|
-| Mã sản phẩm | Primary key representing the unique SKU variant |
-| Tên sản phẩm | The full catalog name of the fashion product |
-| Giá bán | Official listed retail price of the item (VND) |
-| Giá vốn | Master production cost/COGS for the item (VND) |
-| Danh mục | General product category grouping |
-
-**Table: `mkt_camp_by_sku_cost`** (Fact Table / Ad Performance)
-
-| Tên Cột | Description |
-|---|---|
-| Tên chiến dịch | The designated name of the marketing campaign running on Meta Ads |
-| Ngày | Reporting calendar date for the ad tracking |
-| Mã Sản phẩm | SKU code used to join directly against the master product dimension table |
-| Số tiền đã chi tiêu (VND) | Total advertising expenditure for the entire campaign on that day |
-| Tiền đã chạy Theo Sản phẩm | Portion of the ad budget allocated specifically to that unique SKU (VND) |
-
 > For full column details on all tables, see the 📄 [Data Dictionary](data_dictionary.md).
 ---
 
-#### 3️⃣ Data Relationships
+#### 2️⃣ Data Relationships
 
 The reporting schema is integrated within Power BI using a Star Schema structure:
 
