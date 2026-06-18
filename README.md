@@ -27,30 +27,27 @@ _A business dashboard to understand how much money we spend on ads, how much rev
 
 ---
 
-
-
 ## 📌 Background & Overview
 
 ### Objective
-The business operates within the fashion retail and e-commerce industry, executing multi-channel marketing campaigns to drive sales growth. The company must understand exactly how each currency unit spent on advertising transforms into profit or loss, eliminating wasted expenditures on underperforming products and ads.
 
-The Executive Board and leadership team require a tactical dashboard to address three fundamental business needs:
+The fashion business spends money on ads every day. But how much of that money comes back as profit? Which campaigns work? Which products sell well? This dashboard answers these three key questions:
 
-✔️ **Executive Overview:** What is our current budget utilization rate? Does the relationship between marketing costs and net revenue reliably deliver optimal net profits on a daily and weekly basis?
+✔️ **Money & Profit:** How much budget are we using? Are we making profit or losing money each day/week?
 
-✔️ **Campaign & Channel Performance:** Which marketing campaigns yield the highest profitability? How are the ad platform technical metrics (CPC, CPM, CTR) fluctuating? Does the paid acquisition channel (Ads Sales) truly outperform organic/store-driven sales (Direct Sales)?
+✔️ **Campaign Performance:** Which ad campaigns give the best return? Which channel works better - Facebook ads or direct sales?
 
-✔️ **SKU Performance:** Which product categories and SKUs contribute the largest revenue share? Which items achieve excellent ROAS metrics to justify scaling, and which ones are driving margins into negative territory?
+✔️ **Product Performance:** Which products make the most money? Which products lose money?
 
-The core objective of this project is to build an automated dashboard framework that integrates siloed Facebook Ads data with confirmed backend order fulfillments, empowering leadership to optimize cash flows and make precise budget reallocation choices.
+The goal is to connect Facebook ad data with actual sales data, so leadership can make smart decisions about where to spend money next.
 
 ### 👤 Who is this project for?
 
-✔️ **Marketing Manager** - Needs to monitor granular technical ad performance across Meta Ads, control CPM, CPC, CTR, and ROAS trends to optimize creatives, targeting parameters, and adjust weekly spend allocations.
+✔️ **Marketing Manager** - Monitor how ads perform. Track cost per click (CPC), impressions, click rate (CTR). Decide which campaigns to scale up or pause.
 
-✔️ **Sales Manager** - Needs to manage revenue across distribution channels (Ads vs Direct), examine customer purchasing power by geographical city, and leverage customer loyalty tiers to structure conversion incentives.
+✔️ **Sales Manager** - Understand which products sell best. See which city buys most. Compare ads sales vs. direct sales.
 
-✔️ **Board of Directors (CEO/Directors)** - Require a high-level perspective of the financial bottom line, relying on two core metrics (ROAS & Profit Margin %) to control cash flow risks and approve strategic budget expansions.
+✔️ **CEO / Board of Directors** - Weekly view of profit and loss. Is the ad budget working? Are we making money?
 
 ---
 
