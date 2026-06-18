@@ -7,12 +7,12 @@
   <img src="Images/banner.jpg" width="100%">
 </p>
 
-# 📊 {{PROJECT_TITLE}} | Power BI
+# 📊 Fashion Revenue & Marketing Campaign Analysis | Power BI
 
-_{{ONE_LINE_SUMMARY}}_
+_Tactical report to optimize marketing budget allocation based on KPIs and bridge the gap between Meta Ads performance and e-commerce retail sales._
 
-- 🎯 **Business Question:** {{BUSINESS_QUESTION}}
-- 🏬 **Domain:** {{DOMAIN}}
+- 🎯 **Business Question:** How can we link retail revenue data with marketing costs, monitor budget utilization progress, and optimize ad spend efficiency based on key KPIs ?
+- 🏬 **Domain:** Fashion Retail & E-commerce
 - 🛠️ **Tools:** Power BI
 
 👤 Author: Bạch Minh Nam
@@ -32,70 +32,87 @@ _{{ONE_LINE_SUMMARY}}_
 
 ### Objective
 
-{{COMPANY_CONTEXT_PARAGRAPH}}
+The business operates within the fashion retail and e-commerce industry, executing multi-channel marketing campaigns to drive sales growth and elevate brand visibility. Given a defined marketing budget, the company must understand exactly how each currency unit spent transforms into profit or loss, eliminating wasted expenditures on underperforming products and ads.
 
-The {{STAKEHOLDER}} needs a dashboard to answer {{N}} main questions:
+The Executive Board and leadership team require a tactical dashboard to address three fundamental business needs:
 
-✔️ **{{QUESTION_1_TITLE}}:** {{QUESTION_1_DETAIL}}
+✔️ **Executive Overview:** What is our current budget utilization rate? Does the relationship between marketing costs and net revenue reliably deliver optimal net profits on a daily and weekly basis?
 
-✔️ **{{QUESTION_2_TITLE}}:** {{QUESTION_2_DETAIL}}
+✔️ **Campaign & Channel Performance:** Which marketing campaigns yield the highest profitability? How are the ad platform technical metrics (CPC, CPM, CTR) fluctuating? Does the paid acquisition channel (Ads Sales) truly outperform organic/store-driven sales (Direct Sales)?
 
-✔️ **{{QUESTION_3_TITLE}}:** {{QUESTION_3_DETAIL}}
+✔️ **SKU Performance:** Which product categories and SKUs contribute the largest revenue share? Which items achieve excellent ROAS metrics to justify scaling, and which ones are driving margins into negative territory?
 
-{{PROJECT_PURPOSE_PARAGRAPH}}
+The core objective of this project is to build an automated dashboard framework that integrates siloed Facebook Ads data with confirmed backend order fulfillments, empowering leadership to optimize cash flows and make precise budget reallocation choices.
 
 ### 👤 Who is this project for?
 
-✔️ {{AUDIENCE_1}} - {{AUDIENCE_1_REASON}}
+✔️ **Marketing Manager** - Needs to monitor granular technical ad performance across Meta Ads, control CPM, CPC, CTR, and ROAS trends to optimize creatives, targeting parameters, and adjust weekly spend allocations.
 
-✔️ {{AUDIENCE_2}} - {{AUDIENCE_2_REASON}}
+✔️ **Sales Manager** - Needs to manage revenue across distribution channels (Ads vs Direct), examine customer purchasing power by geographical city, and leverage customer loyalty tiers to structure conversion incentives.
 
-✔️ {{AUDIENCE_3}} - {{AUDIENCE_3_REASON}}
+✔️ **Board of Directors (CEO/Directors)** - Require a high-level perspective of the financial bottom line, relying on two core metrics (ROAS & Profit Margin %) to control cash flow risks and approve strategic budget expansions.
 
 ---
 
 ## 📂 Dataset Description & Data Structure
 
 ### 📌 Data Source
-- Source: {{DATA_SOURCE}}
-- Format: {{DATA_FORMAT}}
+- Source: Internal E-commerce ERP Database & Meta Ads Manager Profile (`[DAC] Project 3 - Dataset.xlsx`)
+- Format: Excel Workbook (`.xlsx`)
 
 ### 📊 Data Structure & Relationships
 
 #### 1️⃣ Tables Used
 
-The dataset has **{{N_TABLES}} tables**:
+The dataset consists of **4 main tables**:
 
-- **{{TABLE_1}}** - {{TABLE_1_DESC}}
-- **{{TABLE_2}}** - {{TABLE_2_DESC}}
-- **{{TABLE_3}}** - {{TABLE_3_DESC}}
+- **`order`** - Granular transaction line-level data including order timestamp, statuses, customer demographics, revenue, and product cost of goods (3,451 rows).
+- **`danh sach san pham`** - Master product catalog detailing full item names, listed retail prices, production costs, and category labels (2,250 rows).
+- **`mkt_camp_cost`** - Daily ad campaign cost and aggregate tracking metrics (Impressions, Clicks, Spend, CPC, CPM, CTR) at a campaign level (854 rows).
+- **`mkt_camp_by_sku_cost`** - Meta Ads performance data distributed dynamically down to the specific product/SKU variation level (3,874 rows).
 
-#### 2️⃣ Table Schema
+#### 2️⃣ Table Schema (Core Fields)
 
-**Table: {{TABLE_1}}** ({{TABLE_1_ROLE}})
-
-| Column Name | Description |
-|---|---|
-| {{COLUMN}} | {{DESCRIPTION}} |
-
-**Table: {{TABLE_2}}**
+**Table: `order`** (Fact Table)
 
 | Column Name | Description |
 |---|---|
-| {{COLUMN}} | {{DESCRIPTION}} |
+| ID | Unique transaction order identifier |
+| Thời gian | Exact datetime stamp of the completed order |
+| Mã sản phẩm | Unique product/SKU variant code (including size), used as a key |
+| Số lượng | Quantity of items purchased within the order line |
+| Giá | Actual transaction selling price for the product line (VND) |
+| Giá vốn | Cost of goods sold (COGS) for the product line (VND) |
+| Trạng thái | Fulfilment status (Mới, Đang xác nhận, Đã đóng gói, Thành công, Hệ thống hủy) |
 
-**Table: {{TABLE_3}}**
+**Table: `danh sach san pham`** (Dimension Table)
 
 | Column Name | Description |
 |---|---|
-| {{COLUMN}} | {{DESCRIPTION}} |
+| Mã sản phẩm | Primary key representing the unique SKU variant |
+| Tên sản phẩm | The full catalog name of the fashion product |
+| Giá bán | Official listed retail price of the item (VND) |
+| Giá vốn | Master production cost/COGS for the item (VND) |
+| Danh mục | General product category grouping (e.g., Váy Chiết Eo Xoè, Áo Tách Set) |
+
+**Table: `mkt_camp_by_sku_cost`** (Fact Table / Ad Performance)
+
+| Column Name | Description |
+|---|---|
+| Tên chiến dịch | The designated name of the marketing campaign running on Meta Ads |
+| Ngày | Reporting calendar date for the ad tracking |
+| Mã Sản phẩm | SKU code used to join directly against the master product dimension table |
+| Số tiền đã chi tiêu (VND) | Total advertising expenditure for the entire campaign on that day |
+| Tiền đã chạy \nTheo Sản phẩm | Portion of the ad budget allocated specifically to that unique SKU (VND) |
+
+> ℹ️ *Note: The tables above highlight the critical fields mapped into the reporting schema. To explore the complete set of columns and additional attributes, please refer to the original file: [data_dictionary.md](data_dictionary.md).*
 
 #### 3️⃣ Data Relationships
 
-The {{N_TABLES}} tables are connected as follows:
+The reporting schema is integrated within Power BI using a Star Schema structure:
 
-- **{{TABLE_X}} → {{TABLE_Y}}**: {{RELATIONSHIP_DESC}} (joined on `{{KEY}}`)
-- **{{TABLE_Y}} → {{TABLE_Z}}**: {{RELATIONSHIP_DESC}} (joined on `{{KEY}}`)
+- **`danh sach san pham` → `order`**: 1-to-Many Relationship (mapped via `Mã sản phẩm`)
+- **`danh sach san pham` → `mkt_camp_by_sku_cost`**: 1-to-Many Relationship (mapped via `Mã sản phẩm` / `Mã Sản phẩm`)
 
 <p align="center">
   <img src="Images/data_model.png" width="80%">
@@ -105,57 +122,57 @@ The {{N_TABLES}} tables are connected as follows:
 
 ## 🧠 Design Thinking Process
 
-This project followed the Design Thinking framework across 3 main steps: Empathize, Define Point of View, and Ideate.
+This analytics deployment followed the Design Thinking structure across 3 stages to ensure the final solution solves real business needs.
 
 ### 1️⃣ Empathize - Understanding the Stakeholder
 
 | Question | Answer |
 |---|---|
-| **Who views this dashboard?** | {{STAKEHOLDER}} |
-| **What problem does it solve?** | {{PROBLEM_SOLVED}} |
-| **When & where is it used?** | {{USAGE_CONTEXT}} |
-| **Why is this analysis needed?** | {{WHY_NEEDED}} |
-| **How do they decide?** | {{HOW_DECIDE}} |
-| **Pains** | {{PAINS}} |
-| **Gains** | {{GAINS}} |
-| **Key Questions to Answer** | • {{KEY_Q1}}<br>• {{KEY_Q2}}<br>• {{KEY_Q3}}<br>• {{KEY_Q4}}<br>• {{KEY_Q5}} |
+| **Who views this dashboard?** | Marketing Manager, Sales Manager, and the Board of Directors (CEO). |
+| **What problem does it solve?** | Unifies fragmented insights from Facebook Ad Manager and disconnected ERP backend sheets into an end-to-end overview. |
+| **When & where is it used?** | Daily for revenue tracking, weekly for campaign reviews; accessed on laptops and shared screens during stakeholder status updates. |
+| **Why is this analysis needed?** | Capital constraints dictate that every marketing unit spent must be justified by profitability to safeguard operational cash flows. |
+| **How do they decide?** | Evaluates ROAS alongside Profit Margin, matching performance gaps across campaigns/SKUs to expand or cut investments. |
+| **Pains** | Hours wasted on manual Excel calculations; experiencing strong top-line numbers only to find net losses from high COGS or hidden ad spend. |
+| **Gains** | Decisive, data-backed budget scaling; real-time clarity regarding exactly where the breakeven point sits across all product categories. |
+| **Key Questions to Answer** | • Which Meta Ads campaign delivers the optimal ROAS return?<br>• What are the weekly trend directions for CPC, CPM, and CTR?<br>• What is the revenue split between Ads Sales and organic Direct Sales?<br>• Which geographical cities generate the highest net Profit Margin?<br>• Which SKUs are our true heroes versus value-destroying items? |
 
 ### 2️⃣ Define Point of View - Choosing the Right Angles
 
 | Point of View | Description | Why the stakeholder cares |
 |---|---|---|
-| **{{POV_1}}** | {{POV_1_DESC}} | {{POV_1_WHY}} |
-| **{{POV_2}}** | {{POV_2_DESC}} | {{POV_2_WHY}} |
-| **{{POV_3}}** | {{POV_3_DESC}} | {{POV_3_WHY}} |
+| **Executive Management Angle** | Focuses on high-level gross revenue, total advertising costs, finalized successful transactions, and final net profit. | The CEO and Board require absolute visibility into budget utilization rates and cash runway safety margins. |
+| **Marketing Campaign Angle** | Isolates core platform health metrics: Spend, Impressions, Link Clicks, CTR, CPC, CPM, and individual campaign-level ROAS. | The Marketing Manager needs this tactical view to turn off failing sets, optimize copy, and duplicate winning setups. |
+| **Product & SKU Angle** | Breaks down transaction revenue, matching specific ad spend allocations to calculate exact profit margins after COGS. | Empowers the sales and inventory teams to identify flagship fashion products and discontinue unprofitable inventory. |
 
 **Northstar Metrics:**
 
 | Northstar 1 | Northstar 2 |
 |---|---|
-| **{{NORTHSTAR_1_NAME}}** | **{{NORTHSTAR_2_NAME}}** |
-| Formula: `{{NORTHSTAR_1_FORMULA}}` | Formula: `{{NORTHSTAR_2_FORMULA}}` |
-| Success when: {{NORTHSTAR_1_SUCCESS}} | Success when: {{NORTHSTAR_2_SUCCESS}} |
-| Why this metric: {{NORTHSTAR_1_WHY}} | Why this metric: {{NORTHSTAR_2_WHY}} |
+| **ROAS (Return on Ad Spend)** | **Profit Margin (%)** |
+| Formula: `Ads Revenue / Marketing Spend` | Formula: `(Total Revenue - COGS - Marketing Cost) / Total Revenue` |
+| Success when: ROAS exceeds defined target baseline (e.g., > 5.0) | Success when: The profit margin climbs into positive percentage territory and improves consistently. |
+| Why this metric: Directly quantifies the revenue-generating efficiency of every dollar funneled into digital advertisements. | Why this metric: Guarantees the brand focuses on sustainable bottom-line health rather than chasing unprofitable top-line scale. |
 
 ### 3️⃣ Ideate - Structuring the Dashboard
 
-| | **Page 1: {{PAGE_1_NAME}}** | **Page 2: {{PAGE_2_NAME}}** | **Page 3: {{PAGE_3_NAME}}** |
+| | **Page 1: Executive Overview** | **Page 2: Campaign Performance** | **Page 3: Channel & SKU Detail** |
 |---|---|---|---|
-| **Layer 0 (Scorecards)** | {{P1_LAYER0}} | {{P2_LAYER0}} | {{P3_LAYER0}} |
-| **Layer 1 (1-dimension breakdown)** | {{P1_LAYER1}} | {{P2_LAYER1}} | {{P3_LAYER1}} |
-| **Layer 2 (2-dimension breakdown)** | {{P1_LAYER2}} | {{P2_LAYER2}} | {{P3_LAYER2}} |
+| **Layer 0 (Scorecards)** | Revenue, Orders, Marketing Cost, ROAS, Profit Margin | Spend, Impressions, CTR, CPC, CPM, Campaign ROAS | Category Revenue, Category Margin, SKU Count, Hero SKU ROAS |
+| **Layer 1 (1-dimension breakdown)** | Daily Revenue & Net Profit trends; overall marketing budget usage gauge | Weekly tracking of CPC & CPM shifts; ad costs contrasted against campaign returns | Revenue share & profit margins distributed by item Category; regional sales across Cities |
+| **Layer 2 (2-dimension breakdown)** | Channel split (Ads vs Direct) crossed against Customer VIP Tiers | Scatter matrix comparing Impressions vs CTR by campaign; detailed weekly performance grids | Granular SKU profitability matrix (Spend, COGS, Profit, ROAS, ROI for every standalone item code) |
 
 ---
 
 ## ⚒️ Main Process
 
-1️⃣ **Connect & Load Data** - {{STEP_1_DESC}}
+1️⃣ **Connect & Load Data** - Linked Power BI to the underlying `Project 3 - Dataset.xlsx` workbook, clearing null headers and structuring datetimes within the core Fact tables.
 
-2️⃣ **Data Modeling** - {{STEP_2_DESC}}
+2️⃣ **Data Modeling** - Modeled a classic Star Schema by creating 1-to-Many relationships originating from the master `danh sach san pham` dimension down to both the `order` and `mkt_camp_by_sku_cost` tables using the `Mã sản phẩm` key, supported by a separate Date Table.
 
-3️⃣ **DAX Measures** - {{STEP_3_DESC}}
+3️⃣ **DAX Measures** - Built essential business metrics, including: `Total Revenue = SUM(order[Giá] * order[Số lượng])`, `Marketing Spend = SUM(mkt_camp_by_sku_cost[Tiền đã chạy theo sản phẩm])`, `ROAS = DIVIDE([Ads Revenue], [Marketing Spend])`, alongside complex `Profit Margin %` formulas.
 
-4️⃣ **Power BI Visualization** - {{STEP_4_DESC}}
+4️⃣ **Power BI Visualization** - Built clear report pages using an uniform color palette, placing high-level KPI cards at the top (Layer 0), interactive trend breakdowns in the middle (Layer 1), and structured granular tables at the base (Layer 2).
 
 ---
 
