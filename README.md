@@ -181,7 +181,7 @@ The reporting schema is integrated within Power BI using a Star Schema structure
 
 We followed a simple 3-step thinking process to understand what the business actually needs.
 
-### 1️⃣ Understanding the Users
+### 1️⃣ Empathize - Understanding the Stakeholder
 
 | Question | Answer |
 |---|---|
@@ -196,7 +196,7 @@ We followed a simple 3-step thinking process to understand what the business act
 
 ---
 
-### 2️⃣ What Dashboard Angles Do We Need?
+### 2️⃣ Define Point of View - Choosing the Right Angles
 
 | Angle | Purpose | Why It Matters |
 |---|---|---|
@@ -206,7 +206,7 @@ We followed a simple 3-step thinking process to understand what the business act
 
 ---
 
-**Two Key Metrics We Track:**
+**Northstar Metrics:**
 
 | Metric | What It Means | How To Calculate |
 |---|---|---|
@@ -215,7 +215,7 @@ We followed a simple 3-step thinking process to understand what the business act
 
 ---
 
-### 3️⃣ Dashboard Structure
+### 3️⃣ Ideate - Structuring the Dashboard
 
 | | **Page 1: Executive Overview** | **Page 2: Campaigns** | **Page 3: Products & Cities** |
 |---|---|---|---|
