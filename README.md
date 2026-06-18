@@ -123,7 +123,7 @@ The dataset consists of **4 main tables**:
 
 **Total: 3,874 records**
 
-> For full column details on all tables, see the 📄 [Data Dictionary](data_dictionary.md).
+> For full column details on all tables, see the 📄 [Data Dictionary](data_dictionary.md)
 ---
 
 #### 2️⃣ Data Relationships
