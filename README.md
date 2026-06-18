@@ -202,6 +202,7 @@ We followed a simple 3-step thinking process to understand what the business act
 |---|---|---|
 | **Executive View** | Show total revenue, total ad spend, profit, ROAS, margin %. Big picture. | CEO needs to know: are we making money? |
 | **Campaign View** | Show each ad campaign's performance, spending, clicks, ROAS. | Marketing manager needs to know: which campaigns work? which should I pause? |
+| **Channel View** | Compare Ads Sales vs Direct Sales. Which channel is more profitable? | Sales team needs to know: where is the money coming from? which channel should we invest in? 
 | **Product View** | Show each product's revenue, profit, ad spend allocation, ROAS. | Sales team needs to know: which items sell? which make profit? |
 
 ---
