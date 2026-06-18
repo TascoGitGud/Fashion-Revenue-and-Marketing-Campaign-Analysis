@@ -17,8 +17,6 @@ _{{ONE_LINE_SUMMARY}}_
 
 👤 Author: {{AUTHOR}}
 
-📅 Date: {{DATE}}
-
 ---
 
 ## 📑 Table of Contents
