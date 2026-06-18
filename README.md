@@ -157,6 +157,7 @@ The dataset consists of **4 main tables**:
 | Số tiền đã chi tiêu (VND) | Total advertising expenditure for the entire campaign on that day |
 | Tiền đã chạy Theo Sản phẩm | Portion of the ad budget allocated specifically to that unique SKU (VND) |
 
+> For full column details on all tables, see the 📄 [Data Dictionary](data_dictionary.md).
 ---
 
 #### 3️⃣ Data Relationships
