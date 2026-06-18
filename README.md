@@ -169,7 +169,7 @@ This project followed the Design Thinking framework across 3 main steps: Empathi
 >
 > - 🔖 **Bookmarks & Button** - A hidden filter panel is toggled by clicking the filter on the top right of each page. The panel slides in with: Date Range slider (May 1–31, 2024), and slicers for Product Name, Category, City, and Region - all applied simultaneously across the report page.
 >
-> <p align="center"><img src="Images/bookmarks.png" width="40%"></p>
+> <p align="center"><img src="Images/bookmarks.png" width="30%"></p>
 >
 > - 🔍 **Drill Through** - Right-click or click on any Campaign or SKU data point to drill into dedicated full-detail pages with expanded metrics tables.
 >
