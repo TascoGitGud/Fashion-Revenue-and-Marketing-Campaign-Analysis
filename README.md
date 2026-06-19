@@ -10,7 +10,7 @@
 
 _A business dashboard to understand how much money we spend on ads, how much revenue we make back, and which products and campaigns are making profit or losing money._
 
-- 🎯 **Business Question:** How do we connect ad spending with actual sales? Which products make money? Which marketing campaigns give us the best return?
+- 🎯 **Business Questions:** How do we connect ad spending with actual sales? Which products make money? Which marketing campaigns give us the best return?
 - 🏬 **Domain:** Fashion Retail & Online Sales
 - 🛠️ **Tools:** Power BI
 
