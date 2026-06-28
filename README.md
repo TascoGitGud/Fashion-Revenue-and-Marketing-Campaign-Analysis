@@ -3,7 +3,6 @@
 ![Power BI](https://img.shields.io/badge/Tool-Power_BI-F2C811?style=flat-square&logo=powerbi&logoColor=black)
 ![Status](https://img.shields.io/badge/Status-Completed-success?style=flat-square)
 
----
 <p align="center">
   <img src="Images/banner.jpg" width="100%">
 </p>
