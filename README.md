@@ -170,7 +170,7 @@ This project followed the Design Thinking framework across 3 main steps: Empathi
 
 **Northstar Metrics:**
 
-| Northstar 1 | Northstar 2 |
+| Northstar | 
 |---|---|
 | **ROAS** | **Profit Margin (%)** |
 | Formula: `ROAS = Total Ads Revenue / Total Marketing Cost` | 
