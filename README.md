@@ -64,7 +64,8 @@ The goal is to connect Facebook ad data with actual sales data, so leadership ca
 
 The dataset consists of **4 main tables**:
 
-**Table 1: `order`** - Detailed sales transaction data
+<details>
+<summary><b>📦 Table 1: `order`</b> - Detailed sales transaction data</summary>
 
 | Column Name | Description |
 |---|---|
@@ -78,9 +79,10 @@ The dataset consists of **4 main tables**:
 
 **Total: 3,451 orders in May**
 
----
+</details>
 
-**Table 2: `danh sach san pham`** - Product catalog (inventory items)
+<details>
+<summary><b>🛍️ Table 2: `danh sach san pham`</b> - Product catalog (inventory items)</summary>
 
 | Column Name | Description |
 |---|---|
@@ -92,9 +94,10 @@ The dataset consists of **4 main tables**:
 
 **Total: 2,250 different items**
 
----
+</details>
 
-**Table 3: `mkt_camp_cost`** - Daily Facebook Ads summary
+<details>
+<summary><b>📊 Table 3: `mkt_camp_cost`</b> - Daily Facebook Ads summary</summary>
 
 | Column Name | Description |
 |---|---|
@@ -109,9 +112,10 @@ The dataset consists of **4 main tables**:
 
 **Total: 854 daily records**
 
----
+</details>
 
-**Table 4: `mkt_camp_by_sku_cost`** - Ad spend broken down by product
+<details>
+<summary><b>🎯 Table 4: `mkt_camp_by_sku_cost`</b> - Ad spend broken down by product</summary>
 
 | Column Name | Description |
 |---|---|
@@ -122,6 +126,8 @@ The dataset consists of **4 main tables**:
 | `Tiền đã chạy Theo Sản phẩm` | Ad spend allocated to this specific product |
 
 **Total: 3,874 records**
+
+</details>
 
 > For full column details on all tables, see the 📄 [Data Dictionary](data_dictionary.md)
 ---
