@@ -155,7 +155,7 @@ This project followed the Design Thinking framework across 3 main steps: Empathi
 ### 1️⃣ Empathize - Understanding the Stakeholder
 
 <p align="center">
-  <img src="Images/Step_1.png" width="100%">
+  <img src="Images/Step_1_.png" width="100%">
 </p>
 
 ### 2️⃣ Define Point of View - Choosing the Right Angles
