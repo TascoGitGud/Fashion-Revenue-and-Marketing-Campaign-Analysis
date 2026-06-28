@@ -168,7 +168,7 @@ This project followed the Design Thinking framework across 3 main steps: Empathi
 | **Channel** | Ads Sales vs Direct Sales by revenue, margin, and region | To know which channel drives more profitable revenue |
 | **SKU** | Revenue, profit, and margin by category and product | To know which products to grow and which to fix |
 
-**Northstar Metrics:** - Rõ ra
+**Northstar Metrics:** 
 
 | Northstar | 
 |---|
@@ -176,15 +176,6 @@ This project followed the Design Thinking framework across 3 main steps: Empathi
 | Formula: `ROAS = Total Ads Revenue / Total Marketing Cost` | 
 | Success when: ROAS > 10 and growing vs. prior period | 
 | Why this metric: Directly measures how much revenue each dollar of ad spend returns - the core signal for budget decisions |
-
-### 3️⃣ Ideate - Structuring the Dashboard -- bỏ
-
-| Layer | Overview | Campaign | Channel | SKU |
-|---|---|---|---|---|
-| **Layer 0 (Scorecards)** | Total Revenue, Total Orders, Marketing Cost, ROAS, Total Units Sold | Total Revenue, Total Orders, Marketing Cost, ROAS, Total Units Sold | Total Revenue, Total Orders, Marketing Cost, ROAS, Total Units Sold | Total Revenue, Total Orders, Marketing Cost, ROAS, Total Units Sold |
-| **Layer 1 (1-dimension)** | Revenue & Cost by week/day; Profit & Revenue trend; Ads vs Direct ratio | ROAS by week/day; CPC & CPM by day; Impressions & CTR | Revenue by day (Ads vs Direct); Revenue by Customer Tier; ROAS by channel | Profit & Revenue by category; Profit Margin by category; Ads Revenue by category |
-| **Layer 2 (2-dimension)** | Marketing Cost vs Revenue by campaign; % Budget used | Weekly table: ROAS, Spend, Impressions, CTR, CPC; Metric selector | Table: Ads/Direct × Revenue, Orders, Margin, Units, Contribution; Revenue & Profit by product | SKU table: Spend, Profit, ROAS, ROI, Revenue Contribution; Profit Margin × Gross Profit matrix |
-| **What's missing?** | MoM comparison | ROAS per individual campaign | New vs. returning customers | Inventory vs. sales crosscheck |
 
 > 📄 For the full Design Thinking breakdown, see [Fashion Marketing & Sales Analysis Design Thinking.pdf](Fashion-Marketing-Sales-Analysis-Design-Thinking.pdf)
 
