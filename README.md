@@ -65,7 +65,7 @@ The goal is to connect Facebook ad data with actual sales data, so leadership ca
 The dataset consists of **4 main tables**:
 
 <details>
-<summary><b>📦 Table 1: `order`</b> - Detailed sales transaction data</summary>
+<summary><b>📦 Table 1: order</b> - Detailed sales transaction data</summary>
 
 | Column Name | Description |
 |---|---|
@@ -82,7 +82,7 @@ The dataset consists of **4 main tables**:
 </details>
 
 <details>
-<summary><b>🛍️ Table 2: `danh sach san pham`</b> - Product catalog (inventory items)</summary>
+<summary><b>🛍️ Table 2: danh sach san pham</b> - Product catalog (inventory items)</summary>
 
 | Column Name | Description |
 |---|---|
@@ -97,7 +97,7 @@ The dataset consists of **4 main tables**:
 </details>
 
 <details>
-<summary><b>📊 Table 3: `mkt_camp_cost`</b> - Daily Facebook Ads summary</summary>
+<summary><b>📊 Table 3: mkt_camp_cost</b> - Daily Facebook Ads summary</summary>
 
 | Column Name | Description |
 |---|---|
@@ -115,7 +115,7 @@ The dataset consists of **4 main tables**:
 </details>
 
 <details>
-<summary><b>🎯 Table 4: `mkt_camp_by_sku_cost`</b> - Ad spend broken down by product</summary>
+<summary><b>🎯 Table 4: mkt_camp_by_sku_cost</b> - Ad spend broken down by product</summary>
 
 | Column Name | Description |
 |---|---|
