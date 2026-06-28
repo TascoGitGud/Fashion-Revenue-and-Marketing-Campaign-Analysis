@@ -82,7 +82,7 @@ The dataset consists of **4 main tables**:
 </details>
 
 <details>
-<summary><b>🛍️ Table 2: danh sach san pham</b> - Product catalog (inventory items)</summary>
+<summary><b>🛍️ Table 2: danh sach san pham</b> - Product catalog</summary>
 
 | Column Name | Description |
 |---|---|
