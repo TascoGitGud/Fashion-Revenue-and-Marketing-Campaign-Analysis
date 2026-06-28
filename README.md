@@ -183,7 +183,7 @@ This project followed the Design Thinking framework across 3 main steps: Empathi
 | Success when: ROAS > 10 and growing vs. prior period | 
 | Why this metric: Directly measures how much revenue each dollar of ad spend returns - the core signal for budget decisions |
 
-> 📄 For the full Design Thinking breakdown, see [Fashion Marketing & Sales Analysis Design Thinking.pdf](Fashion-Marketing-Sales-Analysis-Design-Thinking.pdf)
+> 📄 For the full Design Thinking breakdown, see [Fashion Marketing & Sales Analysis Design Thinking](Fashion_Marketing_And_Sales_Analysis_Design_Thinking.pdf)
 
 ---
 
