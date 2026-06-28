@@ -173,9 +173,9 @@ This project followed the Design Thinking framework across 3 main steps: Empathi
 | Northstar 1 | Northstar 2 |
 |---|---|
 | **ROAS** | **Profit Margin (%)** |
-| Formula: `ROAS = Total Ads Revenue / Total Marketing Cost` | Formula: `Profit Margin = Gross Profit / Net Revenue` |
-| Success when: ROAS > 10 and growing vs. prior period | Success when: Profit Margin stays stable or improves alongside revenue growth |
-| Why this metric: Directly measures how much revenue each dollar of ad spend returns - the core signal for budget decisions | Why this metric: High revenue doesn't guarantee profit - ensures growth is healthy, not just volumetric |
+| Formula: `ROAS = Total Ads Revenue / Total Marketing Cost` | 
+| Success when: ROAS > 10 and growing vs. prior period | 
+| Why this metric: Directly measures how much revenue each dollar of ad spend returns - the core signal for budget decisions |
 
 ### 3️⃣ Ideate - Structuring the Dashboard
 
