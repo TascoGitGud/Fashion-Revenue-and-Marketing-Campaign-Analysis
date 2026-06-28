@@ -152,19 +152,19 @@ The reporting schema is integrated within Power BI using a Star Schema structure
 ### 1️⃣ Empathize - Understanding the Stakeholder
 
 <p align="center">
-  <img src="Images/Step_1_.png" width="100%">
+  <img src="Images/Step_01.png" width="100%">
 </p>
 
 ### 2️⃣ Define Point of View - Choosing the Right Angles
 
 <p align="center">
-  <img src="Images/Step_2.png" width="100%">
+  <img src="Images/Step_02.png" width="100%">
 </p>
 
 ### **⭐ Northstar Metric:** 
 
 <p align="center">
-  <img src="Images/Northstar.png" width="100%">
+  <img src="Images/Northstar_Metric.png" width="100%">
 </p>
 
 > 📄 For the full Design Thinking breakdown, see [Fashion Marketing & Sales Analysis Design Thinking](Fashion_Marketing_And_Sales_Analysis_Design_Thinking.pdf)
