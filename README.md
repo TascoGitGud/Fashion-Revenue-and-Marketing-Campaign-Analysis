@@ -162,7 +162,7 @@ The reporting schema is integrated within Power BI using a Star Schema structure
   <img src="Images/Step_2.png" width="100%">
 </p>
 
-**⭐ Northstar Metric:** 
+### **⭐ Northstar Metric:** 
 
 <p align="center">
   <img src="Images/Northstar.png" width="100%">
