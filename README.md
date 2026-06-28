@@ -181,18 +181,6 @@ This project followed the Design Thinking framework across 3 main steps: Empathi
 
 ---
 
-## ⚒️ Main Process
-
-**Step 1:** Connected Power BI to the Excel file, cleaned up data, fixed date formats.
-
-**Step 2:** Organized data into separate tables (`danh sach san pham`, `Dim_Date`, `order`, `mkt_camp_by_sku_cost`).
-
-**Step 3:** Wrote DAX formulas.
-
-**Step 4:** Built 4 dashboard pages with filters, trend charts, and detailed tables.
-
----
-
 ## 📊 Key Insights & Visualizations
 
 ### 🔍 Dashboard Features
