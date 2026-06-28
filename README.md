@@ -154,34 +154,21 @@ This project followed the Design Thinking framework across 3 main steps: Empathi
 
 ### 1️⃣ Empathize - Understanding the Stakeholder
 
-| Question | Answer |
-|---|---|
-| **Who views this dashboard?** | Marketing Manager, Sales Manager, CEO/Board of Directors |
-| **What problem does it solve?** | Need a single dashboard to monitor business and marketing performance - know which campaigns are profitable, which channels work, and which products to prioritize |
-| **When & where is it used?** | Daily for spending & revenue tracking; weekly for campaign reviews; on laptop or large screen during meetings |
-| **Why is this analysis needed?** | Marketing budget is limited - need to know if every dollar spent is generating profit and avoid pouring money into inefficient campaigns or products |
-| **How do they decide?** | By comparing ROAS and Profit Margin across campaigns, channels, and products - then deciding to scale or cut |
-| **Pains** | Data is scattered across Facebook Ads, order systems, and manual Excel sheets; hard to compare SKU-level and channel-level performance |
-| **Gains** | Full picture in one screen; faster budget allocation decisions; reduced marketing waste |
-| **Key Questions to Answer** | • What is total revenue and profit this month?<br>• Which campaigns have the best ROAS?<br>• Is Ads or Direct Sales more profitable?<br>• Which products/categories have low or negative margin?<br>• What % of budget has been spent - and is it generating profit? |
+<p align="center">
+  <img src="Images/Step_1.png" width="100%">
+</p>
 
 ### 2️⃣ Define Point of View - Choosing the Right Angles
 
-| Point of View | Description | Why the stakeholder cares |
-|---|---|---|
-| **Overview** | Total revenue, costs, profit, and ROAS for the month | To see the big picture before diving into details |
-| **Campaign** | ROAS, CPC, CPM, CTR, Impressions per campaign | To know which campaigns to scale or cut |
-| **Channel** | Ads Sales vs Direct Sales by revenue, margin, and region | To know which channel drives more profitable revenue |
-| **SKU** | Revenue, profit, and margin by category and product | To know which products to grow and which to fix |
+<p align="center">
+  <img src="Images/Step_2.png" width="100%">
+</p>
 
-**Northstar Metrics:** 
+**Northstar Metric:** 
 
-| Question | Answer |
-|---|---|
-| **Metric Name** | ROAS |
-| **Formula** | `ROAS = Total Revenue / Total Marketing Cost` |
-| **Success Criteria** | ROAS > 10 and growing vs. prior period  |
-| **Why This Metric** | Directly measures how much revenue each dollar of ad spend returns - the core signal for budget decisions" |
+<p align="center">
+  <img src="Images/Northstar" width="100%">
+</p>
 
 > 📄 For the full Design Thinking breakdown, see [Fashion Marketing & Sales Analysis Design Thinking](Fashion_Marketing_And_Sales_Analysis_Design_Thinking.pdf)
 
