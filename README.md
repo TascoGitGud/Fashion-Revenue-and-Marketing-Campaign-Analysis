@@ -191,28 +191,10 @@ This project followed the Design Thinking framework across 3 main steps: Empathi
 
 ### 🔍 Dashboard Features
 
-> **Advanced Features Used**
-> - 🔖 **Filters** - Click filter button top right to show/hide filter panel. Can filter by: Date range, Product name, Category, City, Region. Filters apply to all pages.
-
-> <p align="center"><img src="Images/bookmarks.png" width="30%"></p>
-
-> - 🔍 **Drill Through** - Right-click or click on any campaign or product to see detailed page with all numbers for that campaign/product.
-
-> <p align="center"><img src="Images/Campaign_Performance_Detail.png" width="100%"></p>
-> <p align="center"><img src="Images/SKU_Performance_Detail.png" width="100%"></p>
-
-> - 🔙 **Back Button** - On detail pages, click back arrow to return to main view.
-
-> - 💬 **Hover for Details** - Mouse over any chart to see more information without cluttering the page.
-
-> <p align="center"><img src="Images/Tooltips1.png" width="48%"> <img src="Images/Tooltips2.png" width="48%"></p>
-
----
-
 #### 1️⃣ Page 1 - Executive Overview
 
 <p align="center">
-  <img src="Images/Executive_Overview.png" width="100%">
+  <img src="Images/Page_1.png" width="100%">
 </p>
 
 📌 **Analysis 1:**
@@ -229,7 +211,7 @@ This project followed the Design Thinking framework across 3 main steps: Empathi
 #### 2️⃣ Page 2 - Campaign Performance
 
 <p align="center">
-  <img src="Images/Campaign_Performance.png" width="100%">
+  <img src="Images/Page_2.png" width="100%">
 </p>
 
 📌 **Analysis 2:**
@@ -246,7 +228,7 @@ This project followed the Design Thinking framework across 3 main steps: Empathi
 #### 3️⃣ Page 3 - Channel Performance
 
 <p align="center">
-  <img src="Images/Channel_Performance.png" width="100%">
+  <img src="Images/Page_3.png" width="100%">
 </p>
 
 📌 **Analysis 3:**
@@ -263,7 +245,7 @@ This project followed the Design Thinking framework across 3 main steps: Empathi
 #### 4️⃣ Page 4 - SKU Performance
 
 <p align="center">
-  <img src="Images/SKU_Performance.png" width="100%">
+  <img src="Images/Page_4.png" width="100%">
 </p>
 
 📌 **Analysis 4:**
