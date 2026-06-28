@@ -176,12 +176,12 @@ This project followed the Design Thinking framework across 3 main steps: Empathi
 
 **Northstar Metrics:** 
 
-| Northstar | 
-|---|
-| **ROAS** |
-| Formula: `ROAS = Total Ads Revenue / Total Marketing Cost` | 
-| Success when: ROAS > 10 and growing vs. prior period | 
-| Why this metric: Directly measures how much revenue each dollar of ad spend returns - the core signal for budget decisions |
+| Question | Answer |
+|---|---|
+| **Metric Name** | ROAS |
+| **Formula** | `ROAS = Total Revenue / Total Marketing Cost` |
+| **Success Criteria** | ROAS > 10 and growing vs. prior period  |
+| **Why This Metric** | Directly measures how much revenue each dollar of ad spend returns - the core signal for budget decisions" |
 
 > 📄 For the full Design Thinking breakdown, see [Fashion Marketing & Sales Analysis Design Thinking](Fashion_Marketing_And_Sales_Analysis_Design_Thinking.pdf)
 
