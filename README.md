@@ -152,7 +152,7 @@ The reporting schema is integrated within Power BI using a Star Schema structure
 ### 1️⃣ Empathize - Understanding the Stakeholder
 
 <p align="center">
-  <img src="Images/Step_01.png" width="100%">
+  <img src="Images/Step_01.jpg" width="100%">
 </p>
 
 ### 2️⃣ Define Point of View - Choosing the Right Angles
