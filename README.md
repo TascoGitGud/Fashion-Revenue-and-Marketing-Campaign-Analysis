@@ -173,9 +173,7 @@ The reporting schema is integrated within Power BI using a Star Schema structure
 
 ## 📊 Key Insights & Visualizations
 
-### 🔍 Dashboard Features
-
-#### 1️⃣ Page 1 - Executive Overview
+### 1️⃣ Page 1 - Executive Overview
 
 <p align="center">
   <img src="Images/Page_1.png" width="100%">
@@ -192,7 +190,7 @@ The reporting schema is integrated within Power BI using a Star Schema structure
 
 ---
 
-#### 2️⃣ Page 2 - Campaign Performance
+### 2️⃣ Page 2 - Campaign Performance
 
 <p align="center">
   <img src="Images/Page_2.png" width="100%">
@@ -209,7 +207,7 @@ The reporting schema is integrated within Power BI using a Star Schema structure
 
 ---
 
-#### 3️⃣ Page 3 - Channel Performance
+### 3️⃣ Page 3 - Channel Performance
 
 <p align="center">
   <img src="Images/Page_3.png" width="100%">
@@ -226,7 +224,7 @@ The reporting schema is integrated within Power BI using a Star Schema structure
 
 ---
 
-#### 4️⃣ Page 4 - SKU Performance
+### 4️⃣ Page 4 - SKU Performance
 
 <p align="center">
   <img src="Images/Page_4.png" width="100%">
