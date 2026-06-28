@@ -168,7 +168,7 @@ This project followed the Design Thinking framework across 3 main steps: Empathi
 | **Channel** | Ads Sales vs Direct Sales by revenue, margin, and region | To know which channel drives more profitable revenue |
 | **SKU** | Revenue, profit, and margin by category and product | To know which products to grow and which to fix |
 
-**Northstar Metrics:**
+**Northstar Metrics:** - Rõ ra
 
 | Northstar | 
 |---|
@@ -177,7 +177,7 @@ This project followed the Design Thinking framework across 3 main steps: Empathi
 | Success when: ROAS > 10 and growing vs. prior period | 
 | Why this metric: Directly measures how much revenue each dollar of ad spend returns - the core signal for budget decisions |
 
-### 3️⃣ Ideate - Structuring the Dashboard
+### 3️⃣ Ideate - Structuring the Dashboard -- bỏ
 
 | Layer | Overview | Campaign | Channel | SKU |
 |---|---|---|---|---|
