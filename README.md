@@ -29,7 +29,7 @@ _A business dashboard to understand how much money is spent on ads, how much rev
 
 ## 📌 Background & Overview
 
-### Objective
+### Business Problem
 
 The fashion business spends money on ads every day. But how much of that money comes back as profit? Which campaigns work? Which products sell well? This dashboard answers these three key questions:
 
