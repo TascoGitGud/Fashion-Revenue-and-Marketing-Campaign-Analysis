@@ -150,7 +150,7 @@ The reporting schema is integrated within Power BI using a Star Schema structure
 
 ## 🧠 Design Thinking Process
 
-This project followed the Design Thinking framework across 2 main steps: Empathize and Define Point of View:
+This project followed the Design Thinking framework across 2 main steps: Empathize and Define Point of View.
 
 ### 1️⃣ Empathize - Understanding the Stakeholder
 
