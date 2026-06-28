@@ -167,7 +167,7 @@ This project followed the Design Thinking framework across 3 main steps: Empathi
 **Northstar Metric:** 
 
 <p align="center">
-  <img src="Images/Northstar" width="100%">
+  <img src="Images/Northstar.png" width="100%">
 </p>
 
 > 📄 For the full Design Thinking breakdown, see [Fashion Marketing & Sales Analysis Design Thinking](Fashion_Marketing_And_Sales_Analysis_Design_Thinking.pdf)
