@@ -1,3 +1,5 @@
+# 📊 Power BI | Fashion Revenue & Marketing Campaign Analysis
+
 ![Power BI](https://img.shields.io/badge/Tool-Power_BI-F2C811?style=flat-square&logo=powerbi&logoColor=black)
 ![Status](https://img.shields.io/badge/Status-Completed-success?style=flat-square)
 
@@ -5,8 +7,6 @@
 <p align="center">
   <img src="Images/banner.jpg" width="100%">
 </p>
-
-# 📊 Power BI | Fashion Revenue & Marketing Campaign Analysis
 
 _A business dashboard to understand how much money is spent on ads, how much revenue comes back, and which products and campaigns are making profit or losing money._
 
