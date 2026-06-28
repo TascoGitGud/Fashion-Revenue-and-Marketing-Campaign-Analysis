@@ -1,7 +1,7 @@
-# 📊 Power BI | Fashion Revenue & Marketing Campaign Analysis
-
 ![Power BI](https://img.shields.io/badge/Tool-Power_BI-F2C811?style=flat-square&logo=powerbi&logoColor=black)
 ![Status](https://img.shields.io/badge/Status-Completed-success?style=flat-square)
+
+# 📊 Power BI | Fashion Revenue & Marketing Campaign Analysis
 
 ---
 <p align="center">
