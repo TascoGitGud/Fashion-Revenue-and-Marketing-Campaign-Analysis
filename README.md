@@ -21,7 +21,7 @@ _A business dashboard to understand how much money is spent on ads, how much rev
 1. [📌 Background & Overview](#-background--overview)
 2. [📂 Dataset Description & Data Structure](#-dataset-description--data-structure)
 3. [🧠 Design Thinking Process](#-design-thinking-process)
-4. [📊 Key Insights & Visualizations](#-key-insights--visualizations)
+4. [📊 Key Findings & Visualizations](#-key-findings--visualizations)
 5. [🔎 Final Conclusion & Recommendations](#-final-conclusion--recommendations)
 
 ---
@@ -171,7 +171,7 @@ The reporting schema is integrated within Power BI using a Star Schema structure
 
 ---
 
-## 📊 Key Insights & Visualizations
+## 📊 Key Findings & Visualizations
 
 ### 1️⃣ Page 1 - Executive Overview
 
@@ -179,14 +179,14 @@ The reporting schema is integrated within Power BI using a Star Schema structure
   <img src="Images/Page_1.png" width="100%">
 </p>
 
-📌 **Analysis 1:**
+**💰 Key Findings:**
 
-- **Observation:** May 2024 delivered solid top-line results - Total Revenue reached **4,773.55M VND** (+5.9% vs. last period), Total Orders grew 6% to 2,858, and ROAS held at **12.11**. The company deployed **82.7% of its marketing budget** (394M / 476M VND). Despite strong headline numbers, profit was highly volatile - multiple days in Weeks 1–2 recorded **negative Total Profit**, pointing to inefficient early-month spending. Direct Sales consistently drove 78–83% of daily revenue, with Ads Sales spiking toward month-end (up to 40%). The scatter plot confirms a linear positive relationship between Marketing Cost and Marketing-driven Revenue, validating that higher ad spend does return proportionally more revenue - when allocated correctly.
-
-- **Recommendation:**
-  - 🔴 **Investigate early-May profit losses.** Negative profit days in Week 1–2 need root-cause analysis - identify which campaigns or SKUs were running below breakeven and whether discounting or high COGS were the driver.
-  - 🟡 **Reallocate the remaining 17.3% budget strategically.** Rather than distributing evenly, concentrate residual budget on campaigns already proven to deliver ROAS above 12.
-  - 🟢 **Use the spend–revenue correlation to justify scaling.** The scatter plot provides clear evidence that incremental marketing investment yields incremental revenue - a strong data point for budget expansion proposals.
+- Total Revenue for May 2024 reached 4,773.55M VND, representing a 5.9% increase compared to the previous period
+- Total Orders grew 6% to reach 2,858 orders, with ROAS (Return on Ad Spend) maintained at 12.11
+- The company deployed 82.7% of its total marketing budget (394M out of 476M VND)
+- Profit fluctuated significantly, with multiple days in the first two weeks showing negative total profit
+- Direct Sales consistently contributed 78–83% of daily revenue, while Ads Sales increased toward month-end (reaching up to 40%)
+- A positive linear relationship exists between Marketing Cost and Marketing-driven Revenue, demonstrating that higher ad spend produces proportionally more revenue when properly targeted
 
 ---
 
@@ -196,14 +196,14 @@ The reporting schema is integrated within Power BI using a Star Schema structure
   <img src="Images/Page_2.png" width="100%">
 </p>
 
-📌 **Analysis 2:**
+**📈 Key Findings:**
 
-- **Observation:** ROAS improved progressively across the month, peaking in **Week 5 at 17.43** - the highest weekly ROAS despite the lowest weekly spend (43.4M), suggesting audience warm-up effects compounded over time. CPC spiked sharply in **Week 1–2 (up to ~20K VND)** before normalizing, while CPM stayed relatively stable at 60–80K throughout. The Impressions vs. CTR scatter reveals weak correlation - more impressions did not reliably improve click-through rate, indicating inconsistent audience quality across campaigns. Drill-through to `Campaign_Performance_Detail` shows **AUDREY SHIRT LAL campaigns** dominated both spend (top 3) and returns (ROAS 197–625). Several small-budget campaigns showed ROAS of 700–950, likely inflated by attribution overlap with organic/direct sales.
-
-- **Recommendation:**
-  - 🔴 **Audit the Week 1–2 CPC spike.** A near-doubling of cost per click with no CTR improvement signals wasted spend - review bid strategy, audience overlap, and targeting breadth during that window.
-  - 🟡 **Validate ultra-high ROAS campaigns before scaling.** ROAS of 700–950 on minimal spend likely reflects misattribution rather than true ad efficiency - cross-check against direct sales orders before increasing budget.
-  - 🟢 **Scale AUDREY SHIRT LAL campaigns with confidence.** Proven ROAS of 197–625 at meaningful spend levels - this is the clearest data-backed case for additional budget allocation.
+- ROAS improved progressively throughout the month, peaking at 17.43 in Week 5 despite the lowest weekly spend of 43.4M
+- Cost per click (CPC) increased sharply in Weeks 1–2 (reaching approximately 20K VND) before normalizing back to baseline levels
+- Cost per mille (CPM) remained relatively stable throughout the month, ranging between 60–80K
+- The relationship between Impressions and Click-through Rate (CTR) showed weak correlation, indicating inconsistent audience quality across different campaigns
+- AUDREY SHIRT LAL campaigns dominated both spending levels and return performance, with ROAS ranging from 197–625
+- Several small-budget campaigns demonstrated ROAS figures of 700–950, though these may reflect attribution overlap with organic and direct sales
 
 ---
 
@@ -213,14 +213,15 @@ The reporting schema is integrated within Power BI using a Star Schema structure
   <img src="Images/Page_3.png" width="100%">
 </p>
 
-📌 **Analysis 3:**
+**🎯 Key Findings:**
 
-- **Observation:** Ads Sales generated **63.34% of total revenue** (2,952M VND) with a channel ROAS of **7.67**, while Direct Sales contributed 36.66% at ROAS **4.44** - confirming the Ads channel delivers superior efficiency per VND spent. The Membership tier overwhelmingly dominates revenue across both channels, with Silver, Platinum, Diamond, and Gold VIP contributing marginally. Geographically, **Hà Nội led all cities** (24.28% revenue share, 9.04% margin), followed by Hồ Chí Minh (12.65%, margin 6.93%). Secondary cities like **Bà Rịa–Vũng Tàu (10.30%)** and **Đà Nẵng (8.60%)** show stronger profit margins at lower volumes. Top products across both channels were consistently **Audrey Shirt 3 and Lisa Dress 5**.
-
-- **Recommendation:**
-  - 🔴 **Address HCM's margin problem (6.93%).** The city generates the 2nd highest revenue but the weakest margin among major cities - audit discount rates, return rates, and shipping costs specific to HCM orders.
-  - 🟡 **Activate the loyalty program to move customers up tiers.** The near-total dominance of Membership-tier revenue signals the VIP program is underperforming - structured upgrade incentives could significantly lift AOV and retention.
-  - 🟢 **Launch targeted Ads campaigns in Bà Rịa–Vũng Tàu and Đà Nẵng.** High margins at low volume make these cities ideal for cost-efficient expansion - lower competition than Hà Nội/HCM with better profitability per order.
+- Ads Sales generated 63.34% of total revenue (2,952M VND) with a channel ROAS of 7.67
+- Direct Sales contributed 36.66% of revenue with ROAS of 4.44, making it less efficient than the Ads channel
+- The Membership customer tier dominated revenue across both channels, while Silver, Platinum, Diamond, and Gold VIP tiers contributed marginally
+- Hà Nội led all cities with 24.28% of total revenue share and 9.04% profit margin
+- Hồ Chí Minh (HCM) generated the second-highest revenue at 12.65% but recorded a lower profit margin of 6.93%
+- Secondary cities including Bà Rịa–Vũng Tàu (10.30% revenue) and Đà Nẵng (8.60% revenue) demonstrated stronger profit margins despite lower sales volumes
+- Audrey Shirt 3 and Lisa Dress 5 consistently ranked as top-performing products across both sales channels
 
 ---
 
@@ -230,31 +231,29 @@ The reporting schema is integrated within Power BI using a Star Schema structure
   <img src="Images/Page_4.png" width="100%">
 </p>
 
-📌 **Analysis 4:**
+**📦 Key Findings:**
 
-- **Observation:** **Váy Chiết Eo Xoè** leads all categories in revenue contribution (31.17%) with a healthy ROAS of **11.75** and Ads Revenue of 996M - the undisputed hero category. **Áo Tách Set** ranks 2nd in revenue but recorded a **Total Profit of -259M VND** (Profit Margin -18.2%), making it the single most value-destroying product line in the portfolio. At the other extreme, **Váy Chiết Eo Ôm** achieved ROAS of **41.89** on just 11.6M in spend - the most efficient category by far, yet severely underfunded. Profit Margin across categories ranged from **-18.2% to +29.4%**, reflecting an extremely uneven product portfolio. From `SKU_Performance_Detail`, **Lisa Dress 5 (ROAS 67.73)** and **Audrey Shirt 3 (ROAS 9.76)** anchor the top of the revenue table, while Áo Tách Set products consistently appear with negative profit figures.
-
-- **Recommendation:**
-  - 🔴 **Halt ad spend on Áo Tách Set immediately.** Spending marketing budget to drive revenue on a -18.2% margin product accelerates losses - freeze campaigns and conduct a full pricing and cost review before resuming.
-  - 🟡 **Significantly increase budget for Váy Chiết Eo Ôm.** ROAS of 41.89 with minimal spend is a clear signal of an underfunded high-performer - reallocating even 10–15M from underperforming categories here would materially improve overall ROAS.
-  - 🟢 **Protect and grow Váy Chiết Eo Xoè as the flagship category.** Highest revenue, solid ROAS, and proven Ads-driven demand - this is the safest and highest-impact category to scale heading into June.
+- Váy Chiết Eo Xoè leads all product categories in revenue contribution at 31.17% with a solid ROAS of 11.75 and 996M in Ads Revenue
+- Áo Tách Set ranks second in revenue but recorded a Total Profit of -259M VND with a negative profit margin of -18.2%, making it the most value-destructive product line
+- Váy Chiết Eo Ôm achieved the highest ROAS of 41.89 on minimal spend of 11.6M, representing the most efficient category by return metrics
+- Profit margins across all product categories range from -18.2% to +29.4%, indicating significant variation in portfolio performance
+- Lisa Dress 5 achieved ROAS of 67.73 and Audrey Shirt 3 achieved ROAS of 9.76, anchoring the top revenue-generating products
+- Products in the Áo Tách Set category consistently appear with negative profit figures across all sales channels
 
 ---
 
 ## 🔎 Final Conclusion & Recommendations
 
-📍 Key Takeaways:
+**💡 Recommendations:**
 
-✔️ **Marketing spend is working - but only when targeted correctly.** Overall ROAS of 12.11 and revenue growth of +5.9% confirm the marketing strategy is directionally sound. However, the wide variance between campaigns (ROAS 7 to 625) and categories (margin -18% to +29%) shows that the average hides significant inefficiency. The strategic priority for June is not to spend more, but to spend smarter.
+✔️ **Marketing spend demonstrates effectiveness but requires strategic optimization.** The overall ROAS of 12.11 and revenue growth of 5.9% validate that the marketing strategy is directionally sound. However, significant variance between campaigns (ROAS ranging from 7 to 625) and product categories (margins ranging from -18% to +29%) reveals that the portfolio average obscures substantial inefficiency. The priority for the next period is to optimize spending allocation rather than simply increase spending volume.
 
-✔️ **Áo Tách Set is destroying value at scale.** The 2nd highest-revenue category is running at -259M VND profit and -18.2% margin - meaning every sale made the overall P&L worse. No marketing budget should be directed here until pricing, discounting, and COGS are restructured. This is the single highest-impact fix available.
+✔️ **Eliminate marketing investment in Áo Tách Set until restructuring is complete.** Despite being the second-highest revenue category, this product line operates at -259M VND profit with -18.2% margins, meaning each sale reduces overall profitability. No marketing budget should support this category until pricing, discounting strategy, and production costs are fundamentally addressed.
 
-✔️ **AUDREY SHIRT campaigns are the proven growth engine.** Delivering ROAS of 197–625 at the highest spend levels in the portfolio, these campaigns represent the clearest, lowest-risk opportunity for budget reallocation. Increasing their share of the remaining 17.3% budget is directly supported by the data.
+✔️ **Scale AUDREY SHIRT campaigns as the primary growth driver.** These campaigns consistently deliver ROAS of 197–625 at the highest spending levels in the portfolio, representing the clearest, lowest-risk opportunity for budget reallocation and increased investment.
 
-✔️ **Váy Chiết Eo Ôm and Lisa Dress 5 are the biggest missed opportunities.** ROAS of 41.89 and 67.73 respectively, both running on minimal budgets. Shifting investment toward these two - funded by cutting spend on Áo Tách Set and underperforming campaigns - would likely push total ROAS well above the 12.11 baseline.
+✔️ **Redirect investment toward underutilized high-efficiency products.** Váy Chiết Eo Ôm (ROAS 41.89) and Lisa Dress 5 (ROAS 67.73) are operating on minimal budgets relative to their performance metrics. Reallocating investment from underperforming campaigns would significantly improve overall portfolio ROAS beyond the current 12.11 baseline.
 
-✔️ **Geographic and loyalty expansion offer structural long-term upside.** Bà Rịa–Vũng Tàu and Đà Nẵng show better margins than HCM at lower competitive intensity - prime targets for June Ads campaigns. Simultaneously, the near-total concentration of revenue in Membership-tier customers signals an untapped loyalty upgrade opportunity that could improve CLV without increasing ad spend.
-
+✔️ **Pursue geographic and customer loyalty expansion for sustainable growth.** Secondary cities including Bà Rịa–Vũng Tàu and Đà Nẵng show superior profit margins compared to major cities with lower competitive intensity, making them ideal targets for campaign expansion. Simultaneously, the heavy concentration of revenue in Membership-tier customers indicates a significant opportunity to increase customer lifetime value through loyalty program upgrades without proportionally increasing ad spending.
 
 ---
-
