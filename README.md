@@ -234,10 +234,6 @@ To achieve ROAS > 10 and optimize marketing performance, this report focuses on 
 
 ---
 
-**Gửi tôi ảnh Page 4 - SKU Performance nhé!** 🚀
-
----
-
 ### 4️⃣ Page 4 - SKU Performance
 
 <p align="center">
