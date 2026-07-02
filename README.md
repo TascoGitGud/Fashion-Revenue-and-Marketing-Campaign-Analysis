@@ -249,8 +249,6 @@ The reporting schema is integrated within Power BI using a Star Schema structure
 
 - `Váy Chiết Eo Ôm` is being overlooked. Only **11M VND** in spend but ROAS reached **41.9** with solid profit. This category deserves a much bigger budget than it is currently getting.
 
-**📊 Key Findings & Visualizations**
-
 ---
 
 ## 🔎 Final Conclusion & Recommendations
