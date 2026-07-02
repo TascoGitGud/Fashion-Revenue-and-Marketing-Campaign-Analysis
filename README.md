@@ -197,7 +197,7 @@ The reporting schema is integrated within Power BI using a Star Schema structure
 
 **📈 Key Findings:**
 
-- On days with **244 campaigns** running at the same time, ROAS fell to around **3-4** *[May 02](Images/may_02.png)*. When campaigns were cut down to **128**, ROAS recovered to **~25** *[May 07](Images/may_07.png)*. Too many campaigns running at once is spreading the budget too thin and pulling overall performance down.
+- On days with **244 campaigns** running at the same time, ROAS fell to around **3-4** [(May 02)](Images/may_02.png). When campaigns were cut down to **128**, ROAS recovered to **~25** [(May 07)](Images/may_07.png). Too many campaigns running at once is spreading the budget too thin and pulling overall performance down.
 
 - ROAS grew steadily from **11.4 in Week 1** to **17.4 in Week 5**, while spend actually dropped from **52M to 43M VND**. Less spend but better focus led to better returns week over week.
 
