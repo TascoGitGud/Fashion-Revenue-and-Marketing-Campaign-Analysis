@@ -223,7 +223,7 @@ The reporting schema is integrated within Power BI using a Star Schema structure
 
 - **Membership tier** customers made up the large majority of revenue and orders across both channels. Silver VIP, Platinum VIP, Gold VIP, and Diamond VIP tiers contributed very little, showing a big opportunity to move more customers up the loyalty tiers.
 
-- `Audrey Shirt 3` and `Lisa Dress 5` were the top revenue products across both channels. How profitable they actually are will be looked at more closely in the **SKU Performance page**.
+- `Audrey Shirt 3`, `Lisa Dress 5` and `Audrey Shirt 1` were the top 3 revenue products across both channels. How profitable they actually are will be looked at more closely in the **SKU Performance page**.
 
 - `Hà Nội` led all cities at **24.3%** of revenue but only a **9.04%** margin. `HCM` was second at **12.65%** with an even lower **6.9%** margin. Smaller cities like `Ninh Bình` **(17.4%)**, `Lâm Đồng` **(15.3%)**, and `Khánh Hòa` **(11.4%)** actually had much better margins despite lower sales. `Long An` **(-1%)** and `Phú Thọ` **(-4.4%)** are currently losing money.
 
@@ -239,7 +239,7 @@ The reporting schema is integrated within Power BI using a Star Schema structure
 
 - `Váy Chiết Eo Xoè` led all categories with **31.17%** of total revenue, a **20.4% profit margin**, and nearly **1B VND** in Ads Revenue. It is clearly the strongest category in the portfolio.
 
-- As mentioned in the **Channel Performance page**, `Audrey Shirt 3` and `Lisa Dress 5` were the top revenue products. But the numbers here tell a different story. `Audrey Shirt 3` is actually losing **-75M VND** in profit with a ROAS of only **9.8**. `Lisa Dress 5` is the real winner, with **+52M VND** profit and ROAS of **68.7**.
+- As mentioned in the **Channel Performance page**, `Audrey Shirt 3`, `Lisa Dress 5` and `Audrey Shirt 1` were the top 3 revenue products, but the numbers here tell a different story: `Audrey Shirt 3` is actually losing **75M VND** in profit; `Audrey Shirt 1` is  losing **50M VND** in profit with a ROAS of only **9.1** . `Lisa Dress 5` is the real winner, with **52M VND** profit and ROAS of **68.7**.
 
 <p align="center">
   <img src="Images/Page_06_.png" width="100%">
