@@ -167,6 +167,15 @@ The reporting schema is integrated within Power BI using a Star Schema structure
   <img src="Images/Northstar_Metric.png" width="100%">
 </p>
 
+# 🎯 Strategic Focus & Optimization Priorities
+
+To achieve ROAS > 10 and optimize marketing performance, this report focuses on **4 key pillars aligned with 4 dashboard pages:**
+
+1. **Executive Overview:** Monitor overall revenue, profit, and ROAS to ensure marketing spend generates positive returns
+2. **Campaign Efficiency:** Identify high-ROAS campaigns (scale up) vs. low-ROAS campaigns (cut down)
+3. **Channel & Customer Performance:** Compare Ads Sales vs. Direct Sales effectiveness and analyze which customer segments drive profitability
+4. **Product Profitability:** Identify products with negative margins and prioritize optimization or discontinuation
+
 ---
 
 ## 📊 Key Findings & Visualizations
