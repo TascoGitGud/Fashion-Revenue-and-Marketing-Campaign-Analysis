@@ -216,10 +216,6 @@ To achieve ROAS > 10 and optimize marketing performance, this report focuses on 
 
 ---
 
-**Gửi tôi ảnh Page 3 - Channel Performance nhé!** 🚀
-
----
-
 ### 3️⃣ Page 3 - Channel Performance
 
 <p align="center">
@@ -228,13 +224,17 @@ To achieve ROAS > 10 and optimize marketing performance, this report focuses on 
 
 **🎯 Key Findings:**
 
-- Ads Sales generated 63.34% of total revenue (2,952M VND) with a channel ROAS of 7.67
-- Direct Sales contributed 36.66% of revenue with ROAS of 4.44, making it less efficient than the Ads channel
-- The Membership customer tier dominated revenue across both channels, while Silver, Platinum, Diamond, and Gold VIP tiers contributed marginally
-- Hà Nội led all cities with 24.28% of total revenue share and 9.04% profit margin
-- Hồ Chí Minh (HCM) generated the second-highest revenue at 12.65% but recorded a lower profit margin of 6.93%
-- Secondary cities including Bà Rịa–Vũng Tàu (10.30% revenue) and Đà Nẵng (8.60% revenue) demonstrated stronger profit margins despite lower sales volumes
-- Audrey Shirt 3 and Lisa Dress 5 consistently ranked as top-performing products across both sales channels
+- Ads Sales brought in 63.34% of total revenue with ROAS of 7.67, but Direct Sales had a much better profit margin (13.94% vs 8.04%). Ads drives more revenue, but Direct Sales keeps more profit per sale.
+
+- Hà Nội led all cities at 24.28% of revenue but only a 9.04% margin. HCM was second at 12.65% with an even lower 6.93% margin. Smaller cities like Ninh Bình (17.36%), Lâm Đồng (15.35%), and Khánh Hòa (11.38%) actually had much better margins despite lower sales. Long An (-1%) and Phú Thọ (-4.43%) are currently losing money.
+
+- Membership tier customers made up the large majority of revenue and orders across both channels. Silver VIP, Platinum VIP, Gold VIP, and Diamond VIP tiers contributed very little, showing a big opportunity to move more customers up the loyalty tiers.
+
+- Audrey Shirt 3 and Lisa Dress 5 were the top revenue products across both channels. How profitable they actually are will be looked at more closely in the next page.
+
+---
+
+**Gửi tôi ảnh Page 4 - SKU Performance nhé!** 🚀
 
 ---
 
