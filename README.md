@@ -188,12 +188,13 @@ To achieve ROAS > 10 and optimize marketing performance, this report focuses on 
 
 **💰 Key Findings:**
 
-- Total Revenue for May 2024 reached 4,773.55M VND, representing a 5.9% increase compared to the previous period
-- Total Orders grew 6% to reach 2,858 orders, with ROAS (Return on Ad Spend) maintained at 12.11
-- The company deployed 82.7% of its total marketing budget (394M out of 476M VND)
-- Profit fluctuated significantly, with multiple days in the first two weeks showing negative total profit
-- Direct Sales consistently contributed 78–83% of daily revenue, while Ads Sales increased toward month-end (reaching up to 40%)
-- A positive linear relationship exists between Marketing Cost and Marketing-driven Revenue, demonstrating that higher ad spend produces proportionally more revenue when properly targeted
+- ROAS in May 2024 reached 12.11, exceeding the >10 target, alongside Total Revenue of 4,773.55M VND (+5.9%) and 2,858 orders (+6%). At the portfolio level, marketing spend is generating positive returns and the business is on the right track.
+
+- The business deployed 82.7% of its total budget (394M / 476M VND), but profit was highly unstable in the first two weeks with multiple days going negative, dropping as low as -10M VND. This shows that spending more budget does not automatically mean better results.
+
+- From mid-May (May 12) onward, profit gradually stabilized and peaked in the final week (~20M VND/day). This recovery suggests some adjustments were made to campaigns or products, which will be explored further in the following pages.
+
+- Marketing Cost and Marketing-driven Revenue show a clear positive relationship across campaigns. Ads Sales share also grew toward month-end (from ~21% up to 23-40% on certain days), while Direct Sales still dominates at 78-83%, indicating the Ads channel is improving but still has significant room to grow.
 
 ---
 
