@@ -207,7 +207,7 @@ The reporting schema is integrated within Power BI using a Star Schema structure
   <img src="Images/Page_05.png" width="100%">
 </p>
 
-- **AUDREY SHIRT LAL new** campaigns brought in **~427M VND** in Ads Revenue from only **47M VND** spent, making them the top performers in the portfolio. Several smaller campaigns with just **5-7M VND** in spend also showed strong Ads Revenue but have not been scaled up yet, which is a missed opportunity. However, whether this Ads Revenue translates into actual product profit will be a key question examined in the **SKU Performance page**.
+- `AUDREY SHIRT LAL new` campaigns brought in **~427M VND** in Ads Revenue from only **47M VND** spent, making them the top performers in the portfolio. Several smaller campaigns with just **5-7M VND** in spend also showed strong Ads Revenue but have not been scaled up yet, which is a missed opportunity. However, whether this Ads Revenue translates into actual product profit will be a key question examined in the **SKU Performance page**.
 
 ---
 
@@ -223,7 +223,7 @@ The reporting schema is integrated within Power BI using a Star Schema structure
 
 - **Membership tier** customers made up the large majority of revenue and orders across both channels. Silver VIP, Platinum VIP, Gold VIP, and Diamond VIP tiers contributed very little, showing a big opportunity to move more customers up the loyalty tiers.
 
-- **Audrey Shirt 3** and **Lisa Dress 5** were the top revenue products across both channels. How profitable they actually are will be looked at more closely in the next page.
+- `Audrey Shirt 3` and `Lisa Dress 5` were the top revenue products across both channels. How profitable they actually are will be looked at more closely in the **SKU Performance page**.
 
 - `Hà Nội` led all cities at **24.3%** of revenue but only a **9.04%** margin. `HCM` was second at **12.65%** with an even lower **6.9%** margin. Smaller cities like `Ninh Bình` **(17.4%)**, `Lâm Đồng` **(15.3%)**, and `Khánh Hòa` **(11.4%)** actually had much better margins despite lower sales. `Long An` **(-1%)** and `Phú Thọ` **(-4.4%)** are currently losing money.
 
@@ -239,7 +239,7 @@ The reporting schema is integrated within Power BI using a Star Schema structure
 
 - `Váy Chiết Eo Xoè` led all categories with **31.17%** of total revenue, a **20.4% profit margin**, and nearly **1B VND** in Ads Revenue. It is clearly the strongest category in the portfolio.
 
-- As mentioned in the **Channel Performance page**, **Audrey Shirt 3** and **Lisa Dress 5** were the top revenue products. But the numbers here tell a different story. Audrey Shirt 3 is actually losing **-75M VND** in profit with a ROAS of only **9.8**. Lisa Dress 5 is the real winner, with **+52M VND** profit and ROAS of **68.7**.
+- As mentioned in the **Channel Performance page**, `Audrey Shirt 3` and `Lisa Dress 5` were the top revenue products. But the numbers here tell a different story. `Audrey Shirt 3` is actually losing **-75M VND** in profit with a ROAS of only **9.8**. `Lisa Dress 5` is the real winner, with **+52M VND** profit and ROAS of **68.7**.
 
 <p align="center">
   <img src="Images/Page_06_.png" width="100%">
@@ -259,9 +259,9 @@ The reporting schema is integrated within Power BI using a Star Schema structure
 
 ✔️ **Stop putting budget into loss-making categories immediately.** `Áo Tách Set`, `Chân Váy Tách Set`, and `Quần Tách Set` are together losing **over -313M VND** in profit while still taking up a large share of budget. Every sale in these categories is actively reducing profit. No marketing budget should go their way until pricing and costs are fixed.
 
-✔️ **Reduce the number of campaigns running at the same time.** Data from Page 2 shows that running **244 campaigns** at once dropped ROAS to 3-4, while cutting down to **128 campaigns** brought ROAS back to ~25. Focus budget on proven performers like **AUDREY SHIRT LAL new** and high-efficiency small campaigns that have not been scaled yet.
+✔️ **Reduce the number of campaigns running at the same time.** Data from Page 2 shows that running **244 campaigns** at once dropped ROAS to 3-4, while cutting down to **128 campaigns** brought ROAS back to ~25. Focus budget on proven performers like `AUDREY SHIRT LAL new` and high-efficiency small campaigns that have not been scaled yet.
 
-✔️ **Shift more budget toward high-return categories.** `Váy Chiết Eo Ôm` is delivering **ROAS of 41.89** on just 11M VND in spend, and **Lisa Dress 5** is generating +52M VND profit with ROAS of 67.73. These are the real growth opportunities and are currently being underfunded.
+✔️ **Shift more budget toward high-return categories.** `Váy Chiết Eo Ôm` is delivering **ROAS of 41.89** on just 11M VND in spend, and `Lisa Dress 5` is generating +52M VND profit with ROAS of 67.73. These are the real growth opportunities and are currently being underfunded.
 
 ✔️ **Expand into smaller cities with stronger margins.** `Hà Nội` and `HCM` dominate revenue but have weaker margins. Cities like `Ninh Bình` **(17.36%)**, `Lâm Đồng` **(15.35%)**, and `Khánh Hòa` **(11.38%)** show that smaller markets can be significantly more profitable and are worth targeting more aggressively.
 
