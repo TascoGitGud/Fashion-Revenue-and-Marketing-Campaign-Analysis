@@ -179,7 +179,7 @@ The reporting schema is integrated within Power BI using a Star Schema structure
 
 **💰 Key Findings:**
 
-- ROAS in May 2024 reached **12.1**, exceeding the **>10 target**, alongside Total Revenue of **4,773.55M VND (+5.9%)** and **2,858 orders (+6%)**. At the portfolio level, marketing spend is generating positive returns and the business is on the right track.
+- ROAS in May 2024 reached **12.1**, exceeding the **>10 target**, alongside Total Revenue of **4,773.55M VND** and **2,858 orders**. At the portfolio level, marketing spend is generating positive returns and the business is on the right track.
 
 - The business deployed **82.7% of its total budget** (394M / 476M VND), but profit was highly unstable in the first two weeks with multiple days going negative, dropping as low as **-10M VND**. This shows that spending more budget does not automatically mean better results.
 
