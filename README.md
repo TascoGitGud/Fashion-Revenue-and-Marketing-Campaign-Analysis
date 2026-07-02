@@ -210,7 +210,7 @@ To achieve ROAS > 10 and optimize marketing performance, this report focuses on 
 
 - ROAS grew steadily from 11.39 in Week 1 to 17.43 in Week 5, while spend actually dropped from 52M to 43M VND. Less spend but better focus led to better returns week over week.
 
-- AUDREY SHIRT LAL new campaigns brought in ~427M VND in Ads Revenue from only 47M VND spent, making them the top performers in the portfolio. Several smaller campaigns with just 5-7M VND in spend also showed strong Ads Revenue but have not been scaled up yet, which is a missed opportunity. 👉 [View full Campaign Performance Detail](Images/Page_5.png)
+- AUDREY SHIRT LAL new campaigns brought in ~427M VND in Ads Revenue from only 47M VND spent, making them the top performers in the portfolio. Several smaller campaigns with just 5-7M VND in spend also showed strong Ads Revenue but have not been scaled up yet, which is a missed opportunity. 👉 [Campaign Performance Detail](Images/Page_5.png)
 
 - CPC spiked to ~20K VND per click in early May, right when ROAS was at its lowest. CTR also did not go up when Impressions went up, meaning more people seeing the ads did not lead to more clicks. Ad targeting quality was inconsistent across campaigns.
 
