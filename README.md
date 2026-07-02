@@ -199,11 +199,15 @@ The reporting schema is integrated within Power BI using a Star Schema structure
 
 - On days with **244 campaigns** running at the same time, ROAS fell to around **3-4** [(May 02)](Images/may_02.png). When campaigns were cut down to **128**, ROAS recovered to **~25** [(May 07)](Images/may_07.png). Too many campaigns running at once is spreading the budget too thin and pulling overall performance down.
 
+- CPC spiked to **~20K VND** per click in early May, right when ROAS was at its lowest. CTR also did not go up when Impressions went up, meaning more people seeing the ads did not lead to more clicks. **Ad targeting quality was inconsistent** across campaigns.
+
 - ROAS grew steadily from **11.4 in Week 1** to **17.4 in Week 5**, while spend actually dropped from **52M to 43M VND**. Less spend but better focus led to better returns week over week.
 
-- **AUDREY SHIRT LAL new** campaigns brought in **~427M VND** in Ads Revenue from only **47M VND** spent, making them the top performers in the portfolio. Several smaller campaigns with just **5-7M VND** in spend also showed strong Ads Revenue but have not been scaled up yet, which is a missed opportunity. 👉 [Campaign Performance Detail](Images/Page_5.png)
+<p align="center">
+  <img src="Images/Page_5.png.png" width="100%">
+</p>
 
-- CPC spiked to **~20K VND** per click in early May, right when ROAS was at its lowest. CTR also did not go up when Impressions went up, meaning more people seeing the ads did not lead to more clicks. **Ad targeting quality was inconsistent** across campaigns.
+- **AUDREY SHIRT LAL new** campaigns brought in **~427M VND** in Ads Revenue from only **47M VND** spent, making them the top performers in the portfolio. Several smaller campaigns with just **5-7M VND** in spend also showed strong Ads Revenue but have not been scaled up yet, which is a missed opportunity.
 
 ---
 
