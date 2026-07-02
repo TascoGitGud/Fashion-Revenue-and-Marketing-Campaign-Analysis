@@ -237,7 +237,7 @@ The reporting schema is integrated within Power BI using a Star Schema structure
 
 - As mentioned in the Channel Performance page, **Audrey Shirt 3** and **Lisa Dress 5** were the top revenue products. But the numbers here tell a different story. Audrey Shirt 3 is actually losing **-75M VND** in profit with a ROAS of only **9.8**. Lisa Dress 5 is the real winner, with **+52M VND** profit and ROAS of **67.7**.
 
-- `Áo Tách Set` is the biggest problem in the portfolio. It brings in **22%** of revenue but is losing **-258M VND** in profit. Two more categories are also in the red: `Chân Váy Tách Set` **(-46M VND)** and `Quần Tách Set` **(-8.7M VND)**. Together, these three categories are losing over **-313M VND** in total, all while showing decent revenue on the surface. 👉 [SKU Performance Detail](Images/Page_6_.png)
+- `Áo Tách Set` is the biggest problem in the portfolio. It brings in **22%** of revenue but is losing **-258M VND** in profit. Two more categories are also in the red: `Chân Váy Tách Set` **(-46M VND)** and `Quần Tách Set` **(-8.7M VND)**. Together, these three categories are losing over **-313M VND** in total, all while showing decent revenue on the surface. 👉 [SKU Performance Detail](Images/Page_06_.png)
 
 - `Váy Chiết Eo Ôm` is being overlooked. Only **11M VND** in spend but ROAS reached **41.9** with solid profit. This category deserves a much bigger budget than it is currently getting.
 
