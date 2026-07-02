@@ -207,7 +207,7 @@ The reporting schema is integrated within Power BI using a Star Schema structure
   <img src="Images/Page_05.png" width="100%">
 </p>
 
-- **AUDREY SHIRT LAL new** campaigns brought in **~427M VND** in Ads Revenue from only **47M VND** spent, making them the top performers in the portfolio. Several smaller campaigns with just **5-7M VND** in spend also showed strong Ads Revenue but have not been scaled up yet, which is a missed opportunity.
+- **AUDREY SHIRT LAL new** campaigns brought in **~427M VND** in Ads Revenue from only **47M VND** spent, making them the top performers in the portfolio. Several smaller campaigns with just **5-7M VND** in spend also showed strong Ads Revenue but have not been scaled up yet, which is a missed opportunity. However, whether this Ads Revenue translates into actual product profit will be a key question examined in the SKU Performance page.
 
 ---
 
