@@ -210,7 +210,7 @@ To achieve ROAS > 10 and optimize marketing performance, this report focuses on 
 
 - ROAS grew steadily from 11.39 in Week 1 to 17.43 in Week 5, while spend actually dropped from 52M to 43M VND. Less spend but better focus led to better returns week over week.
 
-- AUDREY SHIRT LAL new campaigns brought in ~427M VND in Ads Revenue from only 47M VND spent, making them the top performers in the portfolio. Several smaller campaigns with just 5-7M VND in spend also showed strong Ads Revenue but have not been scaled up yet, which is a missed opportunity. 👉 [Campaign Performance Detail](Images/Page_5.png)
+- AUDREY SHIRT LAL new campaigns brought in ~427M VND in Ads Revenue from only 47M VND spent, making them the top performers in the portfolio. Several smaller campaigns with just 5-7M VND in spend also showed strong Ads Revenue but have not been scaled up yet, which is a missed opportunity. However, whether this Ads Revenue translates into actual product profit will be a key question examined in the SKU Performance page. 👉 [Campaign Performance Detail](Images/Page_5.png)
 
 - CPC spiked to ~20K VND per click in early May, right when ROAS was at its lowest. CTR also did not go up when Impressions went up, meaning more people seeing the ads did not lead to more clicks. Ad targeting quality was inconsistent across campaigns.
 
@@ -242,12 +242,15 @@ To achieve ROAS > 10 and optimize marketing performance, this report focuses on 
 
 **📦 Key Findings:**
 
-- Váy Chiết Eo Xoè leads all product categories in revenue contribution at 31.17% with a solid ROAS of 11.75 and 996M in Ads Revenue
-- Áo Tách Set ranks second in revenue but recorded a Total Profit of -259M VND with a negative profit margin of -18.2%, making it the most value-destructive product line
-- Váy Chiết Eo Ôm achieved the highest ROAS of 41.89 on minimal spend of 11.6M, representing the most efficient category by return metrics
-- Profit margins across all product categories range from -18.2% to +29.4%, indicating significant variation in portfolio performance
-- Lisa Dress 5 achieved ROAS of 67.73 and Audrey Shirt 3 achieved ROAS of 9.76, anchoring the top revenue-generating products
-- Products in the Áo Tách Set category consistently appear with negative profit figures across all sales channels
+- Váy Chiết Eo Xoè led all categories with 31.17% of total revenue, a 20.4% profit margin, and nearly 1bn VND in Ads Revenue. It is the strongest category in the portfolio by far.
+
+- As teased in the Channel Performance page, Audrey Shirt 3 and Lisa Dress 5 were the top revenue products. But looking at the numbers here, Audrey Shirt 3 is actually losing -75M VND in profit with a ROAS of only 9.76. Lisa Dress 5 is the opposite, +52M VND profit and ROAS of 67.73, making it the real winner of the two.
+
+- Áo Tách Set is the biggest issue in the portfolio. It makes up 22.02% of revenue but every Audrey Shirt product in this category is losing money, adding up to -259M VND total profit at -13.4% margin. The high revenue number is covering up a real profitability problem. 👉 [View SKU Performance Detail](Images/Page_6.png)
+
+- Váy Chiết Eo Ôm is the most underused category. Only 11M VND spent but ROAS hit 41.89 with good profit. The budget given to this category is way too small compared to what it can deliver.
+
+- Chân Váy Tách Set is also losing money at -18.2% margin but has not gotten much attention yet. Along with Áo Tách Set, both categories need a serious review before any more budget goes their way.
 
 ---
 
