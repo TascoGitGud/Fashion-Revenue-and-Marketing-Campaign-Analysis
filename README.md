@@ -225,7 +225,7 @@ The reporting schema is integrated within Power BI using a Star Schema structure
 
 - `Audrey Shirt 3`, `Lisa Dress 5` and `Audrey Shirt 1` were the top 3 revenue products across both channels. How profitable they actually are will be looked at more closely in the **SKU Performance page**.
 
-- `Hà Nội` led all cities at **24.3%** of revenue but only a **9.04%** margin. `HCM` was second at **12.65%** with an even lower **6.9%** margin. Smaller cities like `Ninh Bình` **(17.4%)**, `Lâm Đồng` **(15.3%)**, and `Khánh Hòa` **(11.4%)** actually had much better margins despite lower sales. `Long An` **(-1%)** and `Phú Thọ` **(-4.4%)** are currently losing money.
+- `Hà Nội` led all cities at **24.3%** of revenue but only a **9.04%** margin. `HCM` was second at **12.65%** with an even lower **6.9%** margin. Smaller cities like `Ninh Bình` **(17.4%)**, `Lâm Đồng` **(15.3%)**, and `Khánh Hòa` **(11.4%)** actually had much better margins despite lower sales. `Kon Tum` **(-27.3%)** and `Trà Vinh` **(-14.3%)** are currently showing the lowest profit margins.
 
 ---
 
