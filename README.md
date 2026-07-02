@@ -239,7 +239,7 @@ The reporting schema is integrated within Power BI using a Star Schema structure
 
 - `Váy Chiết Eo Xoè` led all categories with **31.17%** of total revenue, a **20.4% profit margin**, and nearly **1B VND** in Ads Revenue. It is clearly the strongest category in the portfolio.
 
-- As mentioned in the Channel Performance page, **Audrey Shirt 3** and **Lisa Dress 5** were the top revenue products. But the numbers here tell a different story. Audrey Shirt 3 is actually losing **-75M VND** in profit with a ROAS of only **9.8**. Lisa Dress 5 is the real winner, with **+52M VND** profit and ROAS of **67.7**.
+- As mentioned in the Channel Performance page, **Audrey Shirt 3** and **Lisa Dress 5** were the top revenue products. But the numbers here tell a different story. Audrey Shirt 3 is actually losing **-75M VND** in profit with a ROAS of only **9.8**. Lisa Dress 5 is the real winner, with **+52M VND** profit and ROAS of **68.7**.
 
 <p align="center">
   <img src="Images/Page_06_.png" width="100%">
