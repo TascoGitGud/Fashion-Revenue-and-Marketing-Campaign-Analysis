@@ -167,7 +167,7 @@ The reporting schema is integrated within Power BI using a Star Schema structure
   <img src="Images/Northstar_Metric.png" width="100%">
 </p>
 
-# 🎯 Strategic Focus & Optimization Priorities
+### 🎯 Strategic Focus & Optimization Priorities
 
 To achieve ROAS > 10 and optimize marketing performance, this report focuses on **4 key pillars aligned with 4 dashboard pages:**
 
